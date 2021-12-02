@@ -1,0 +1,20 @@
+{
+    "name": "Dragon",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fb5146404cb86704e92672bc24b2868b",
+        "GUID:68765d262e2128e4ab49c983f3411946",
+        "GUID:d8de5bdbcb8545d46a9e2b8fcb48e167",
+        "GUID:84611ba62938798439938e77a45de671",
+        "GUID:3e688842587e9b241b742af37f8704ff"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,957 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8807a755df8f4fe489b88cc12fa569c1, type: 3}
+  m_Name: Andar Bhar_Ai Bot_Data
+  m_EditorClassIdentifier: 
+  bots:
+  - spot: 4
+    chip: 10
+    position: {x: 3.471429, y: -2.2100387, z: 0}
+  - spot: 4
+    chip: 10
+    position: {x: 3.0752897, y: -2.2517376, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.0752897, y: -2.627027, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.5965245, y: -2.627027, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.576448, y: -1.0216217, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.8459466, y: -0.95907366, z: 0}
+  - spot: 2
+    chip: 10
+    position: {x: -3.742471, y: -2.2725868, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: -0.0938221, y: -2.2934365, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: 0.010424424, y: -2.16834, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: -0.4274128, y: -2.2100387, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: -0.6984558, y: -2.2100387, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: -0.8444018, y: -2.2100387, z: 0}
+  - spot: 2
+    chip: 10
+    position: {x: -4.242857, y: -2.1891892, z: 0}
+  - spot: 2
+    chip: 10
+    position: {x: -4.638996, y: -2.1474905, z: 0}
+  - spot: 5
+    chip: 10
+    position: {x: -4.034363, y: -2.6895754, z: 0}
+  - spot: 5
+    chip: 10
+    position: {x: -4.5555983, y: -2.7312744, z: 0}
+  - spot: 5
+    chip: 10
+    position: {x: -5.0351353, y: -2.6687262, z: 0}
+  - spot: 5
+    chip: 10
+    position: {x: -4.4096527, y: -2.7312744, z: 0}
+  - spot: 5
+    chip: 10
+    position: {x: -4.242857, y: -2.7312744, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.40656397, y: -2.7104247, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.15637094, y: -2.7938225, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: 0.07297325, y: -2.7104247, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.67760587, y: -2.814672, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.5548258, y: -2.772973, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 4.0760617, y: -2.7938225, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.742471, y: -2.6687262, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -4.784942, y: -3.2316604, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -4.4096527, y: -3.2733593, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -5.0768337, y: -3.2942085, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -4.743243, y: -3.2525096, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -4.597297, y: -3.2316604, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.26061803, y: -3.3776064, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.7401547, y: -3.2525096, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.5733588, y: -3.3776064, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.3231657, y: -3.2942085, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: 0.38571396, y: -3.3150582, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.010424996, y: -3.3776064, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.656757, y: -3.3150582, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.6598454, y: -3.2942085, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.5555983, y: -3.3359075, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.326255, y: -3.210811, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -5.0351353, y: -3.2525096, z: 0}
+  - spot: 5
+    chip: 50
+    position: {x: -4.9100385, y: -2.7104247, z: 0}
+  - spot: 5
+    chip: 50
+    position: {x: -4.5139, y: -2.7521238, z: 0}
+  - spot: 5
+    chip: 50
+    position: {x: -4.7015443, y: -2.7938225, z: 0}
+  - spot: 5
+    chip: 50
+    position: {x: -4.326255, y: -2.772973, z: 0}
+  - spot: 2
+    chip: 50
+    position: {x: -3.992664, y: -2.16834, z: 0}
+  - spot: 2
+    chip: 50
+    position: {x: -4.430502, y: -2.2725868, z: 0}
+  - spot: 2
+    chip: 50
+    position: {x: -4.5555983, y: -2.2725868, z: 0}
+  - spot: 2
+    chip: 50
+    position: {x: -4.1594596, y: -2.2934365, z: 0}
+  - spot: 3
+    chip: 50
+    position: {x: -0.34401572, y: -2.2517376, z: 0}
+  - spot: 3
+    chip: 50
+    position: {x: -0.07297325, y: -2.2934365, z: 0}
+  - spot: 3
+    chip: 50
+    position: {x: -0.7401547, y: -2.2517376, z: 0}
+  - spot: 3
+    chip: 50
+    position: {x: -0.5525099, y: -2.2934365, z: 0}
+  - spot: 3
+    chip: 50
+    position: {x: 0.010424424, y: -2.2517376, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 3.6590734, y: -2.2725868, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 3.9301152, y: -2.1891892, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 4.013514, y: -2.1474905, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 4.1177597, y: -2.126641, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 4.1594596, y: -2.2517376, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 3.7216222, y: -2.2725868, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 3.3046327, y: -2.2725868, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 3.0335908, y: -2.2517376, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.428957, y: -1.1050196, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.720849, y: -0.83397704, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 3.0961385, y: -1.0216217, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 3.3671815, y: -1.2301159, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 3.6382234, y: -0.896525, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.3038616, y: -0.7297298, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -3.742471, y: -1.042471, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -3.992664, y: -0.9173747, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -4.3054056, y: -0.83397704, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -4.638996, y: -1.2301159, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -4.1594596, y: -1.2718148, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -3.2629344, y: -1.0633206, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -3.1169884, y: -0.7505791, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.492278, y: -1.2092665, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.242857, y: -0.896525, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.7216218, y: -0.8756757, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.5548263, y: -0.8756757, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.5339768, y: -1.1258689, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.7633204, y: -1.1050196, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.680695, y: -0.97992295, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.7015443, y: -0.896525, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.7833977, y: -0.896525, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 1.9077221, y: -0.8756757, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.0536687, y: -1.0633206, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.3872583, y: -1.1258689, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.8250966, y: -1.1258689, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.2212362, y: -0.896525, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.2212362, y: -0.79227805, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.3872583, y: -0.7505791, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.199614, y: -0.79227805, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.3455606, y: -0.8756757, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.0961385, y: -0.95907366, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.1378386, y: -0.97992295, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.9092665, y: -0.83397704, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.6382234, y: -1.2509656, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.1586874, y: -1.0007724, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.0961385, y: -0.83397704, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.471429, y: -0.938224, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.5548258, y: -0.95907366, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.5965245, y: -1.0007724, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.1378386, y: -1.2509656, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.8667955, y: -1.2926642, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.67915, y: -1.2926642, z: 0}
+  - spot: 2
+    chip: 500
+    position: {x: -4.326255, y: -2.2308881, z: 0}
+  - spot: 3
+    chip: 500
+    position: {x: 0.010424424, y: -2.2934365, z: 0}
+  - spot: 0
+    chip: 100
+    position: {x: -3.7007723, y: -1.1675676, z: 0}
+  - spot: 0
+    chip: 100
+    position: {x: -3.992664, y: -1.1050196, z: 0}
+  - spot: 0
+    chip: 100
+    position: {x: -4.534749, y: -0.97992295, z: 0}
+  - spot: 0
+    chip: 100
+    position: {x: -3.3046334, y: -0.7088804, z: 0}
+  - spot: 1
+    chip: 100
+    position: {x: 3.4297304, y: -1.2509656, z: 0}
+  - spot: 1
+    chip: 100
+    position: {x: 3.242085, y: -0.8131277, z: 0}
+  - spot: 1
+    chip: 100
+    position: {x: 2.2621617, y: -1.1258689, z: 0}
+  - spot: 7
+    chip: 50
+    position: {x: 3.3880303, y: -2.772973, z: 0}
+  - spot: 7
+    chip: 50
+    position: {x: 4.013514, y: -2.7104247, z: 0}
+  - spot: 7
+    chip: 50
+    position: {x: 4.1594596, y: -2.6895754, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.576448, y: -3.356757, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.576448, y: -3.356757, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -5.139383, y: -3.356757, z: 0}
+  - spot: 9
+    chip: 100
+    position: {x: -0.15637094, y: -3.3359075, z: 0}
+  - spot: 9
+    chip: 100
+    position: {x: 0.17721978, y: -3.2733593, z: 0}
+  - spot: 9
+    chip: 100
+    position: {x: -0.7818535, y: -3.356757, z: 0}
+  - spot: 9
+    chip: 100
+    position: {x: -0.7818535, y: -3.3776064, z: 0}
+  - spot: 9
+    chip: 100
+    position: {x: 0.5316605, y: -3.2942085, z: 0}
+  - spot: 9
+    chip: 100
+    position: {x: 0.0938221, y: -3.356757, z: 0}
+  - spot: 6
+    chip: 100
+    position: {x: -0.34401572, y: -2.772973, z: 0}
+  - spot: 6
+    chip: 100
+    position: {x: -0.4274128, y: -2.7521238, z: 0}
+  - spot: 6
+    chip: 100
+    position: {x: -0.28146687, y: -2.7104247, z: 0}
+  - spot: 6
+    chip: 100
+    position: {x: -0.15637094, y: -2.7104247, z: 0}
+  - spot: 2
+    chip: 100
+    position: {x: -4.0760617, y: -2.2725868, z: 0}
+  - spot: 2
+    chip: 100
+    position: {x: -3.888417, y: -2.2308881, z: 0}
+  - spot: 2
+    chip: 100
+    position: {x: -3.6799228, y: -2.2100387, z: 0}
+  - spot: 2
+    chip: 100
+    position: {x: -3.5548263, y: -2.2100387, z: 0}
+  - spot: 2
+    chip: 100
+    position: {x: -3.2212355, y: -2.2100387, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 4.1177597, y: -1.1258689, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.8050199, y: -0.83397704, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 1.8868722, y: -0.7088804, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 1.949421, y: -1.042471, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.5540535, y: -1.3343629, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.9301152, y: -1.2092665, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 4.305406, y: -1.2092665, z: 0}
+  - spot: 0
+    chip: 1000
+    position: {x: -2.9918919, y: -1.2092665, z: 0}
+  - spot: 0
+    chip: 1000
+    position: {x: -3.7633204, y: -0.95907366, z: 0}
+  - spot: 2
+    chip: 1000
+    position: {x: -3.846718, y: -2.2934365, z: 0}
+  - spot: 4
+    chip: 1000
+    position: {x: 3.3254826, y: -2.2100387, z: 0}
+  - spot: 5
+    chip: 1000
+    position: {x: -4.680695, y: -2.7104247, z: 0}
+  - spot: 6
+    chip: 1000
+    position: {x: -0.36486512, y: -2.8355215, z: 0}
+  - spot: 7
+    chip: 1000
+    position: {x: 3.492278, y: -2.6478765, z: 0}
+  - spot: 9
+    chip: 1000
+    position: {x: 0.4482628, y: -3.3776064, z: 0}
+  - spot: 8
+    chip: 1000
+    position: {x: -4.8057914, y: -3.210811, z: 0}
+  - spot: 8
+    chip: 1000
+    position: {x: -3.9509652, y: -3.210811, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -2.8667948, y: -1.042471, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -4.597297, y: -1.1258689, z: 0}
+  - spot: 0
+    chip: 50
+    position: {x: -4.680695, y: -1.0007724, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.241313, y: -0.79227805, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.1370652, y: -0.79227805, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.5957537, y: -1.1050196, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.8459466, y: -0.97992295, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 3.742471, y: -0.938224, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 3.78417, y: -0.97992295, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 3.8884175, y: -1.2926642, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.3664093, y: -1.188417, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.3455606, y: -1.188417, z: 0}
+  - spot: 1
+    chip: 50
+    position: {x: 2.3455606, y: -1.188417, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 2.8667955, y: -2.126641, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 2.8459466, y: -2.126641, z: 0}
+  - spot: 4
+    chip: 50
+    position: {x: 4.034364, y: -2.1057916, z: 0}
+  - spot: 9
+    chip: 500
+    position: {x: -0.36486512, y: -3.2525096, z: 0}
+  - spot: 9
+    chip: 500
+    position: {x: 0.4274128, y: -3.3359075, z: 0}
+  - spot: 9
+    chip: 1000
+    position: {x: -0.010424996, y: -3.2525096, z: 0}
+  - spot: 8
+    chip: 1000
+    position: {x: -4.534749, y: -3.1899617, z: 0}
+  - spot: 8
+    chip: 1000
+    position: {x: -4.2637067, y: -3.3776064, z: 0}
+  - spot: 5
+    chip: 1000
+    position: {x: -3.8050194, y: -2.7312744, z: 0}
+  - spot: 5
+    chip: 1000
+    position: {x: -4.326255, y: -2.7104247, z: 0}
+  - spot: 2
+    chip: 1000
+    position: {x: -3.3671815, y: -2.2934365, z: 0}
+  - spot: 4
+    chip: 1000
+    position: {x: 3.283784, y: -2.2100387, z: 0}
+  - spot: 4
+    chip: 1000
+    position: {x: 4.096912, y: -2.2100387, z: 0}
+  - spot: 7
+    chip: 1000
+    position: {x: 3.9301152, y: -2.7312744, z: 0}
+  - spot: 7
+    chip: 1000
+    position: {x: 3.6382234, y: -2.8980696, z: 0}
+  - spot: 6
+    chip: 1000
+    position: {x: -0.0938221, y: -2.7521238, z: 0}
+  - spot: 6
+    chip: 1000
+    position: {x: 0.28146744, y: -2.7938225, z: 0}
+  - spot: 6
+    chip: 1000
+    position: {x: -0.7818535, y: -2.7104247, z: 0}
+  - spot: 0
+    chip: 1000
+    position: {x: -3.5339768, y: -1.2718148, z: 0}
+  - spot: 0
+    chip: 1000
+    position: {x: -3.8258688, y: -1.2718148, z: 0}
+  - spot: 0
+    chip: 1000
+    position: {x: -3.9718146, y: -1.2301159, z: 0}
+  - spot: 0
+    chip: 1000
+    position: {x: -4.534749, y: -0.8756757, z: 0}
+  - spot: 1
+    chip: 1000
+    position: {x: 3.3254826, y: -0.8131277, z: 0}
+  - spot: 9
+    chip: 100
+    position: {x: -0.48996165, y: -3.2942085, z: 0}
+  - spot: 9
+    chip: 100
+    position: {x: 0.38571396, y: -3.3359075, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.1177607, y: -3.3984559, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.618147, y: -3.2733593, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.7015443, y: -3.210811, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -5.1185327, y: -3.356757, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.8474903, y: -3.419305, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.430502, y: -3.419305, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -4.0969114, y: -3.419305, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -3.8050194, y: -3.3776064, z: 0}
+  - spot: 8
+    chip: 50
+    position: {x: -3.6590734, y: -3.356757, z: 0}
+  - spot: 5
+    chip: 10
+    position: {x: -4.0552125, y: -2.7521238, z: 0}
+  - spot: 5
+    chip: 10
+    position: {x: -4.1594596, y: -2.7938225, z: 0}
+  - spot: 5
+    chip: 10
+    position: {x: -3.7216218, y: -2.6687262, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.656757, y: -2.7521238, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.5733588, y: -2.7312744, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.34401572, y: -2.6895754, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: 0.38571396, y: -2.6687262, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: 0.32316628, y: -3.2525096, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.21891919, y: -3.2525096, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.38571396, y: -3.2525096, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: -0.6359076, y: -3.2316604, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.7216218, y: -1.2718148, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.1594596, y: -1.2301159, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.326255, y: -1.2301159, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.367954, y: -1.2092665, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.1177607, y: -1.0007724, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.7633204, y: -0.8756757, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.5965252, y: -0.79227805, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.5548263, y: -0.7714287, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.242085, y: -0.7714287, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -2.9918919, y: -1.1258689, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -2.9918919, y: -1.1675676, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.0127413, y: -1.2092665, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.3455606, y: -0.97992295, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 1.7617768, y: -1.2301159, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 1.8451734, y: -1.2926642, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 1.928571, y: -1.2926642, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.5123549, y: -1.2092665, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.7625477, y: -1.1675676, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.6590734, y: -0.97992295, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.76332, y: -0.896525, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.428957, y: -0.7714287, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.8675675, y: -0.8756757, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.9301152, y: -0.938224, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 4.013514, y: -1.0216217, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 4.055212, y: -1.1258689, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.513128, y: -1.2718148, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.0127409, y: -1.188417, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.6374524, y: -1.1467183, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.3038616, y: -1.0633206, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.0328188, y: -0.8756757, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 1.928571, y: -0.8131277, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.3463316, y: -0.79227805, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.0961385, y: -0.79227805, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.0961385, y: -0.8548264, z: 0}
+  - spot: 4
+    chip: 10
+    position: {x: 3.4297304, y: -2.2100387, z: 0}
+  - spot: 4
+    chip: 10
+    position: {x: 3.6173747, y: -2.2934365, z: 0}
+  - spot: 4
+    chip: 10
+    position: {x: 3.9718142, y: -2.2934365, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.6799223, y: -2.627027, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.4297304, y: -2.7312744, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.1586874, y: -2.7938225, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.1586874, y: -2.7938225, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 2.9293442, y: -2.7938225, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 4.034364, y: -2.6895754, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -3.9509652, y: -3.210811, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -3.930116, y: -3.2525096, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -4.5555983, y: -3.3984559, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -4.826641, y: -3.3776064, z: 0}
+  - spot: 8
+    chip: 10
+    position: {x: -5.2644787, y: -3.210811, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: 0.32316628, y: -3.3776064, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.114672095, y: -2.7938225, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.052123833, y: -2.7938225, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: 0.13552094, y: -2.7312744, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: 0.46911165, y: -2.6895754, z: 0}
+  - spot: 6
+    chip: 10
+    position: {x: -0.46911165, y: -2.7104247, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: -0.40656397, y: -2.2725868, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: 0.031274416, y: -2.2725868, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: 0.23976746, y: -2.2517376, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: 0.26061746, y: -2.2517376, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: 0.3023163, y: -2.2517376, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: -0.15637094, y: -2.2100387, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.4088805, y: -1.2509656, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.242085, y: -1.2092665, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.430502, y: -0.8756757, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.3671815, y: -1.0216217, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.3046327, y: -0.896525, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.1370652, y: -0.7088804, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.1795373, y: -0.79227805, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.242085, y: -0.95907366, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.2003863, y: -1.08417, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.6583014, y: -0.8131277, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.9293442, y: -0.8548264, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.6382234, y: -1.08417, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.8884175, y: -1.188417, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 3.9509652, y: -1.3343629, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.9084942, y: -1.2926642, z: 0}
+  - spot: 1
+    chip: 10
+    position: {x: 2.8459466, y: -1.2926642, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.846718, y: -1.188417, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.1795368, y: -1.0216217, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.0127413, y: -0.8756757, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.0127413, y: -0.7297298, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.326255, y: -0.8548264, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -4.0969114, y: -0.938224, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.8258688, y: -1.0216217, z: 0}
+  - spot: 0
+    chip: 10
+    position: {x: -3.5756757, y: -1.1467183, z: 0}
+  - spot: 2
+    chip: 10
+    position: {x: -3.7007723, y: -2.1474905, z: 0}
+  - spot: 2
+    chip: 10
+    position: {x: -3.7216218, y: -2.1891892, z: 0}
+  - spot: 2
+    chip: 10
+    position: {x: -4.2220078, y: -2.2308881, z: 0}
+  - spot: 2
+    chip: 10
+    position: {x: -4.2220078, y: -2.2308881, z: 0}
+  - spot: 2
+    chip: 10
+    position: {x: -4.2220078, y: -2.2308881, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: -0.5316599, y: -2.1891892, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: -0.3231657, y: -2.2308881, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: 0.052124407, y: -2.2725868, z: 0}
+  - spot: 3
+    chip: 10
+    position: {x: 0.15637094, y: -2.2725868, z: 0}
+  - spot: 4
+    chip: 10
+    position: {x: 3.3463316, y: -2.3559844, z: 0}
+  - spot: 4
+    chip: 10
+    position: {x: 3.513128, y: -2.3351352, z: 0}
+  - spot: 4
+    chip: 10
+    position: {x: 3.8467176, y: -2.2517376, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.9509652, y: -2.7938225, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.9301152, y: -2.7938225, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 3.0335908, y: -2.7938225, z: 0}
+  - spot: 7
+    chip: 10
+    position: {x: 2.741699, y: -2.7521238, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: 0.010424424, y: -3.3359075, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: 0.010424424, y: -3.3359075, z: 0}
+  - spot: 9
+    chip: 10
+    position: {x: 0.010424424, y: -3.3359075, z: 0}

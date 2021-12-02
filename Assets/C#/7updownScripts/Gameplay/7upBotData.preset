@@ -1,0 +1,1087 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 7upBotData
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: f9edb605ead46ff4ca2d281d736aa8ac, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.size
+    value: 44
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[0].target.x
+    value: -5.0110464
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[0].target.y
+    value: -0.5617762
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[0].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[0].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[0].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[0].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[1].target.x
+    value: -5.6851783
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[1].target.y
+    value: -1.0111973
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[1].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[1].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[1].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[1].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[2].target.x
+    value: -6.499754
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[2].target.y
+    value: -1.4606189
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[2].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[2].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[2].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[2].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[3].target.x
+    value: -0.7977216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[3].target.y
+    value: -1.8538624
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[3].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[3].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[3].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[3].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[4].target.x
+    value: 4.8762207
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[4].target.y
+    value: -1.7415069
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[4].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[4].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[4].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[4].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[5].target.x
+    value: -6.5840206
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[5].target.y
+    value: -1.6853293
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[5].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[5].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[5].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[5].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[6].target.x
+    value: -4.336915
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[6].target.y
+    value: -1.8538624
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[6].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[6].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[6].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[6].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[7].target.x
+    value: -7.5671296
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[7].target.y
+    value: -1.4606189
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[7].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[7].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[7].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[7].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[8].target.x
+    value: 1.5898281
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[8].target.y
+    value: -1.8819511
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[8].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[8].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[8].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[8].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[9].target.x
+    value: -4.9267797
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[9].target.y
+    value: -2.6965268
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[9].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[9].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[9].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[9].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[10].target.x
+    value: -4.4729185
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[10].target.y
+    value: -1.9998276
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[10].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[10].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[10].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[10].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[11].target.x
+    value: -6.2332287
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[11].target.y
+    value: -2.302832
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[11].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[11].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[11].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[11].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[12].target.x
+    value: 2.308604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[12].target.y
+    value: -2.1441154
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[12].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[12].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[12].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[12].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[13].target.x
+    value: -4.559491
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[13].target.y
+    value: -1.8411113
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[13].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[13].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[13].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[13].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[14].target.x
+    value: -5.7426505
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[14].target.y
+    value: -1.9853988
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[14].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[14].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[14].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[14].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[15].target.x
+    value: 1.7458819
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[15].target.y
+    value: -3.0098414
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[15].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[15].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[15].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[15].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[16].target.x
+    value: 5.7137914
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[16].target.y
+    value: -2.1441154
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[16].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[16].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[16].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[16].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[17].target.x
+    value: -4.415203
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[17].target.y
+    value: -1.9565413
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[17].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[17].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[17].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[17].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[18].target.x
+    value: -4.357488
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[18].target.y
+    value: -2.2595456
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[18].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[18].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[18].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[18].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[19].target.x
+    value: 2.611607
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[19].target.y
+    value: -2.0719714
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[19].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[19].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[19].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[19].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[20].target.x
+    value: -4.4584904
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[20].target.y
+    value: -1.3649615
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[20].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[20].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[20].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[20].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[21].target.x
+    value: 4.9923534
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[21].target.y
+    value: -0.98981345
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[21].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[21].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[21].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[21].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[22].target.x
+    value: -4.3863463
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[22].target.y
+    value: -0.96095604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[22].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[22].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[22].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[22].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[23].target.x
+    value: 6.464088
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[23].target.y
+    value: -0.8166685
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[23].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[23].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[23].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[23].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[24].target.x
+    value: -6.478518
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[24].target.y
+    value: -1.1773876
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[24].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[24].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[24].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[24].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[25].target.x
+    value: -6.3919454
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[25].target.y
+    value: -1.2783891
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[25].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[25].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[25].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[25].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[26].target.x
+    value: 6.8248076
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[26].target.y
+    value: -1.2639602
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[26].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[26].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[26].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[26].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[27].target.x
+    value: -6.1322274
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[27].target.y
+    value: -1.4371059
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[27].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[27].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[27].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[27].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[28].target.x
+    value: 6.868094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[28].target.y
+    value: -0.8022396
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[28].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[28].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[28].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[28].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[29].target.x
+    value: -5.7426505
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[29].target.y
+    value: -1.4515344
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[29].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[29].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[29].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[29].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[30].target.x
+    value: -4.3863463
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[30].target.y
+    value: -0.93209857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[30].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[30].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[30].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[30].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[31].target.x
+    value: -5.5406475
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[31].target.y
+    value: -1.5669645
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[31].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[31].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[31].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[31].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[32].target.x
+    value: -5.9302244
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[32].target.y
+    value: -1.2351028
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[32].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[32].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[32].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[32].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[33].target.x
+    value: -5.1222134
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[33].target.y
+    value: -1.8266824
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[33].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[33].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[33].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[33].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[34].target.x
+    value: -5.1222134
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[34].target.y
+    value: -1.8266824
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[34].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[34].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[34].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[34].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[35].target.x
+    value: 4.7326355
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[35].target.y
+    value: -0.93209857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[35].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[35].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[35].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[35].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[36].target.x
+    value: -4.3286304
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[36].target.y
+    value: -0.7733822
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[36].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[36].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[36].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[36].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[37].target.x
+    value: -6.2043715
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[37].target.y
+    value: -0.98981345
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[37].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[37].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[37].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[37].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[38].target.x
+    value: 5.338644
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[38].target.y
+    value: -1.797825
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[38].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[38].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[38].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[38].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[39].target.x
+    value: -5.5117903
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[39].target.y
+    value: -1.1918164
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[39].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[39].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[39].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[39].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[40].target.x
+    value: -5.0356407
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[40].target.y
+    value: -1.2928177
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[40].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[40].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[40].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[40].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[41].target.x
+    value: -5.1077843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[41].target.y
+    value: -1.2928177
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[41].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[41].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[41].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[41].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[42].target.x
+    value: -7.459675
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[42].target.y
+    value: -0.93209857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[42].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[42].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[42].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[42].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[43].target.x
+    value: 5.107783
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[43].target.y
+    value: -0.8743834
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[43].target.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[43].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[43].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: chipDetails.Array.data[43].spawnNo
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

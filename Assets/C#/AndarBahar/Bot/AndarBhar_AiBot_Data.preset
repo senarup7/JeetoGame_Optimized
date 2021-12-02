@@ -1,0 +1,6271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AndarBhar_AiBot_Data
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 8807a755df8f4fe489b88cc12fa569c1, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.size
+    value: 312
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[0].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[0].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[0].position.x
+    value: 3.471429
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[0].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[0].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[1].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[1].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[1].position.x
+    value: 3.0752897
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[1].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[1].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[2].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[2].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[2].position.x
+    value: 3.0752897
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[2].position.y
+    value: -2.627027
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[2].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[3].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[3].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[3].position.x
+    value: 3.5965245
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[3].position.y
+    value: -2.627027
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[3].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[4].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[4].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[4].position.x
+    value: -4.576448
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[4].position.y
+    value: -1.0216217
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[4].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[5].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[5].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[5].position.x
+    value: 2.8459466
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[5].position.y
+    value: -0.95907366
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[5].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[6].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[6].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[6].position.x
+    value: -3.742471
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[6].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[6].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[7].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[7].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[7].position.x
+    value: -0.0938221
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[7].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[7].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[8].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[8].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[8].position.x
+    value: 0.010424424
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[8].position.y
+    value: -2.16834
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[8].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[9].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[9].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[9].position.x
+    value: -0.4274128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[9].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[9].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[10].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[10].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[10].position.x
+    value: -0.6984558
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[10].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[10].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[11].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[11].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[11].position.x
+    value: -0.8444018
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[11].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[11].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[12].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[12].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[12].position.x
+    value: -4.242857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[12].position.y
+    value: -2.1891892
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[12].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[13].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[13].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[13].position.x
+    value: -4.638996
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[13].position.y
+    value: -2.1474905
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[13].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[14].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[14].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[14].position.x
+    value: -4.034363
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[14].position.y
+    value: -2.6895754
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[14].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[15].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[15].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[15].position.x
+    value: -4.5555983
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[15].position.y
+    value: -2.7312744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[15].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[16].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[16].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[16].position.x
+    value: -5.0351353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[16].position.y
+    value: -2.6687262
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[16].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[17].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[17].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[17].position.x
+    value: -4.4096527
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[17].position.y
+    value: -2.7312744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[17].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[18].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[18].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[18].position.x
+    value: -4.242857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[18].position.y
+    value: -2.7312744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[18].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[19].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[19].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[19].position.x
+    value: -0.40656397
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[19].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[19].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[20].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[20].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[20].position.x
+    value: -0.15637094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[20].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[20].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[21].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[21].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[21].position.x
+    value: 0.07297325
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[21].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[21].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[22].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[22].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[22].position.x
+    value: -0.67760587
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[22].position.y
+    value: -2.814672
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[22].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[23].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[23].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[23].position.x
+    value: 3.5548258
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[23].position.y
+    value: -2.772973
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[23].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[24].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[24].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[24].position.x
+    value: 4.0760617
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[24].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[24].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[25].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[25].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[25].position.x
+    value: 3.742471
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[25].position.y
+    value: -2.6687262
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[25].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[26].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[26].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[26].position.x
+    value: -4.784942
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[26].position.y
+    value: -3.2316604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[26].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[27].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[27].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[27].position.x
+    value: -4.4096527
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[27].position.y
+    value: -3.2733593
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[27].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[28].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[28].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[28].position.x
+    value: -5.0768337
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[28].position.y
+    value: -3.2942085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[28].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[29].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[29].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[29].position.x
+    value: -4.743243
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[29].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[29].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[30].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[30].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[30].position.x
+    value: -4.597297
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[30].position.y
+    value: -3.2316604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[30].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[31].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[31].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[31].position.x
+    value: -0.26061803
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[31].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[31].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[32].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[32].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[32].position.x
+    value: -0.7401547
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[32].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[32].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[33].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[33].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[33].position.x
+    value: -0.5733588
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[33].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[33].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[34].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[34].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[34].position.x
+    value: -0.3231657
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[34].position.y
+    value: -3.2942085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[34].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[35].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[35].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[35].position.x
+    value: 0.38571396
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[35].position.y
+    value: -3.3150582
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[35].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[36].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[36].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[36].position.x
+    value: -0.010424996
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[36].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[36].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[37].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[37].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[37].position.x
+    value: -0.656757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[37].position.y
+    value: -3.3150582
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[37].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[38].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[38].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[38].position.x
+    value: -4.6598454
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[38].position.y
+    value: -3.2942085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[38].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[39].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[39].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[39].position.x
+    value: -4.5555983
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[39].position.y
+    value: -3.3359075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[39].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[40].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[40].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[40].position.x
+    value: -4.326255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[40].position.y
+    value: -3.210811
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[40].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[41].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[41].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[41].position.x
+    value: -5.0351353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[41].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[41].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[42].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[42].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[42].position.x
+    value: -4.9100385
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[42].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[42].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[43].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[43].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[43].position.x
+    value: -4.5139
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[43].position.y
+    value: -2.7521238
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[43].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[44].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[44].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[44].position.x
+    value: -4.7015443
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[44].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[44].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[45].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[45].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[45].position.x
+    value: -4.326255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[45].position.y
+    value: -2.772973
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[45].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[46].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[46].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[46].position.x
+    value: -3.992664
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[46].position.y
+    value: -2.16834
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[46].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[47].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[47].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[47].position.x
+    value: -4.430502
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[47].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[47].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[48].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[48].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[48].position.x
+    value: -4.5555983
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[48].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[48].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[49].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[49].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[49].position.x
+    value: -4.1594596
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[49].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[49].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[50].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[50].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[50].position.x
+    value: -0.34401572
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[50].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[50].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[51].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[51].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[51].position.x
+    value: -0.07297325
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[51].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[51].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[52].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[52].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[52].position.x
+    value: -0.7401547
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[52].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[52].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[53].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[53].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[53].position.x
+    value: -0.5525099
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[53].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[53].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[54].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[54].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[54].position.x
+    value: 0.010424424
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[54].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[54].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[55].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[55].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[55].position.x
+    value: 3.6590734
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[55].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[55].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[56].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[56].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[56].position.x
+    value: 3.9301152
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[56].position.y
+    value: -2.1891892
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[56].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[57].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[57].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[57].position.x
+    value: 4.013514
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[57].position.y
+    value: -2.1474905
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[57].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[58].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[58].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[58].position.x
+    value: 4.1177597
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[58].position.y
+    value: -2.126641
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[58].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[59].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[59].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[59].position.x
+    value: 4.1594596
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[59].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[59].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[60].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[60].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[60].position.x
+    value: 3.7216222
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[60].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[60].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[61].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[61].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[61].position.x
+    value: 3.3046327
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[61].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[61].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[62].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[62].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[62].position.x
+    value: 3.0335908
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[62].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[62].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[63].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[63].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[63].position.x
+    value: 2.428957
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[63].position.y
+    value: -1.1050196
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[63].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[64].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[64].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[64].position.x
+    value: 2.720849
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[64].position.y
+    value: -0.83397704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[64].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[65].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[65].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[65].position.x
+    value: 3.0961385
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[65].position.y
+    value: -1.0216217
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[65].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[66].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[66].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[66].position.x
+    value: 3.3671815
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[66].position.y
+    value: -1.2301159
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[66].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[67].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[67].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[67].position.x
+    value: 3.6382234
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[67].position.y
+    value: -0.896525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[67].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[68].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[68].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[68].position.x
+    value: 2.3038616
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[68].position.y
+    value: -0.7297298
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[68].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[69].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[69].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[69].position.x
+    value: -3.742471
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[69].position.y
+    value: -1.042471
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[69].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[70].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[70].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[70].position.x
+    value: -3.992664
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[70].position.y
+    value: -0.9173747
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[70].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[71].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[71].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[71].position.x
+    value: -4.3054056
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[71].position.y
+    value: -0.83397704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[71].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[72].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[72].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[72].position.x
+    value: -4.638996
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[72].position.y
+    value: -1.2301159
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[72].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[73].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[73].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[73].position.x
+    value: -4.1594596
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[73].position.y
+    value: -1.2718148
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[73].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[74].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[74].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[74].position.x
+    value: -3.2629344
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[74].position.y
+    value: -1.0633206
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[74].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[75].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[75].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[75].position.x
+    value: -3.1169884
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[75].position.y
+    value: -0.7505791
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[75].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[76].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[76].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[76].position.x
+    value: -3.492278
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[76].position.y
+    value: -1.2092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[76].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[77].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[77].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[77].position.x
+    value: -4.242857
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[77].position.y
+    value: -0.896525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[77].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[78].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[78].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[78].position.x
+    value: -3.7216218
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[78].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[78].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[79].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[79].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[79].position.x
+    value: -3.5548263
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[79].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[79].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[80].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[80].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[80].position.x
+    value: -3.5339768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[80].position.y
+    value: -1.1258689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[80].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[81].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[81].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[81].position.x
+    value: -3.7633204
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[81].position.y
+    value: -1.1050196
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[81].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[82].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[82].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[82].position.x
+    value: -4.680695
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[82].position.y
+    value: -0.97992295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[82].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[83].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[83].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[83].position.x
+    value: -4.7015443
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[83].position.y
+    value: -0.896525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[83].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[84].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[84].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[84].position.x
+    value: 2.7833977
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[84].position.y
+    value: -0.896525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[84].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[85].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[85].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[85].position.x
+    value: 1.9077221
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[85].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[85].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[86].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[86].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[86].position.x
+    value: 2.0536687
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[86].position.y
+    value: -1.0633206
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[86].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[87].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[87].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[87].position.x
+    value: 2.3872583
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[87].position.y
+    value: -1.1258689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[87].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[88].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[88].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[88].position.x
+    value: 2.8250966
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[88].position.y
+    value: -1.1258689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[88].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[89].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[89].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[89].position.x
+    value: 3.2212362
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[89].position.y
+    value: -0.896525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[89].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[90].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[90].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[90].position.x
+    value: 3.2212362
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[90].position.y
+    value: -0.79227805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[90].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[91].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[91].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[91].position.x
+    value: 2.3872583
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[91].position.y
+    value: -0.7505791
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[91].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[92].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[92].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[92].position.x
+    value: 2.199614
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[92].position.y
+    value: -0.79227805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[92].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[93].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[93].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[93].position.x
+    value: 2.3455606
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[93].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[93].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[94].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[94].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[94].position.x
+    value: 3.0961385
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[94].position.y
+    value: -0.95907366
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[94].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[95].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[95].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[95].position.x
+    value: 3.1378386
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[95].position.y
+    value: -0.97992295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[95].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[96].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[96].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[96].position.x
+    value: 3.9092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[96].position.y
+    value: -0.83397704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[96].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[97].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[97].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[97].position.x
+    value: 3.6382234
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[97].position.y
+    value: -1.2509656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[97].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[98].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[98].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[98].position.x
+    value: 3.1586874
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[98].position.y
+    value: -1.0007724
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[98].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[99].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[99].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[99].position.x
+    value: 3.0961385
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[99].position.y
+    value: -0.83397704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[99].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[100].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[100].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[100].position.x
+    value: 3.471429
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[100].position.y
+    value: -0.938224
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[100].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[101].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[101].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[101].position.x
+    value: 3.5548258
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[101].position.y
+    value: -0.95907366
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[101].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[102].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[102].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[102].position.x
+    value: 3.5965245
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[102].position.y
+    value: -1.0007724
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[102].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[103].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[103].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[103].position.x
+    value: 3.1378386
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[103].position.y
+    value: -1.2509656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[103].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[104].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[104].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[104].position.x
+    value: 2.8667955
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[104].position.y
+    value: -1.2926642
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[104].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[105].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[105].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[105].position.x
+    value: 2.67915
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[105].position.y
+    value: -1.2926642
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[105].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[106].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[106].chip
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[106].position.x
+    value: -4.326255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[106].position.y
+    value: -2.2308881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[106].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[107].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[107].chip
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[107].position.x
+    value: 0.010424424
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[107].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[107].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[108].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[108].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[108].position.x
+    value: -3.7007723
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[108].position.y
+    value: -1.1675676
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[108].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[109].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[109].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[109].position.x
+    value: -3.992664
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[109].position.y
+    value: -1.1050196
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[109].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[110].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[110].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[110].position.x
+    value: -4.534749
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[110].position.y
+    value: -0.97992295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[110].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[111].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[111].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[111].position.x
+    value: -3.3046334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[111].position.y
+    value: -0.7088804
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[111].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[112].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[112].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[112].position.x
+    value: 3.4297304
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[112].position.y
+    value: -1.2509656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[112].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[113].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[113].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[113].position.x
+    value: 3.242085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[113].position.y
+    value: -0.8131277
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[113].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[114].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[114].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[114].position.x
+    value: 2.2621617
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[114].position.y
+    value: -1.1258689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[114].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[115].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[115].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[115].position.x
+    value: 3.3880303
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[115].position.y
+    value: -2.772973
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[115].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[116].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[116].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[116].position.x
+    value: 4.013514
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[116].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[116].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[117].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[117].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[117].position.x
+    value: 4.1594596
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[117].position.y
+    value: -2.6895754
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[117].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[118].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[118].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[118].position.x
+    value: -4.576448
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[118].position.y
+    value: -3.356757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[118].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[119].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[119].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[119].position.x
+    value: -4.576448
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[119].position.y
+    value: -3.356757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[119].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[120].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[120].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[120].position.x
+    value: -5.139383
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[120].position.y
+    value: -3.356757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[120].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[121].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[121].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[121].position.x
+    value: -0.15637094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[121].position.y
+    value: -3.3359075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[121].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[122].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[122].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[122].position.x
+    value: 0.17721978
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[122].position.y
+    value: -3.2733593
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[122].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[123].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[123].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[123].position.x
+    value: -0.7818535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[123].position.y
+    value: -3.356757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[123].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[124].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[124].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[124].position.x
+    value: -0.7818535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[124].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[124].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[125].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[125].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[125].position.x
+    value: 0.5316605
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[125].position.y
+    value: -3.2942085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[125].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[126].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[126].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[126].position.x
+    value: 0.0938221
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[126].position.y
+    value: -3.356757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[126].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[127].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[127].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[127].position.x
+    value: -0.34401572
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[127].position.y
+    value: -2.772973
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[127].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[128].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[128].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[128].position.x
+    value: -0.4274128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[128].position.y
+    value: -2.7521238
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[128].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[129].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[129].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[129].position.x
+    value: -0.28146687
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[129].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[129].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[130].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[130].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[130].position.x
+    value: -0.15637094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[130].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[130].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[131].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[131].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[131].position.x
+    value: -4.0760617
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[131].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[131].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[132].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[132].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[132].position.x
+    value: -3.888417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[132].position.y
+    value: -2.2308881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[132].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[133].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[133].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[133].position.x
+    value: -3.6799228
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[133].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[133].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[134].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[134].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[134].position.x
+    value: -3.5548263
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[134].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[134].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[135].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[135].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[135].position.x
+    value: -3.2212355
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[135].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[135].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[136].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[136].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[136].position.x
+    value: 4.1177597
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[136].position.y
+    value: -1.1258689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[136].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[137].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[137].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[137].position.x
+    value: 3.8050199
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[137].position.y
+    value: -0.83397704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[137].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[138].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[138].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[138].position.x
+    value: 1.8868722
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[138].position.y
+    value: -0.7088804
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[138].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[139].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[139].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[139].position.x
+    value: 1.949421
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[139].position.y
+    value: -1.042471
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[139].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[140].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[140].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[140].position.x
+    value: 2.5540535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[140].position.y
+    value: -1.3343629
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[140].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[141].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[141].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[141].position.x
+    value: 3.9301152
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[141].position.y
+    value: -1.2092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[141].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[142].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[142].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[142].position.x
+    value: 4.305406
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[142].position.y
+    value: -1.2092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[142].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[143].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[143].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[143].position.x
+    value: -2.9918919
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[143].position.y
+    value: -1.2092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[143].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[144].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[144].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[144].position.x
+    value: -3.7633204
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[144].position.y
+    value: -0.95907366
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[144].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[145].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[145].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[145].position.x
+    value: -3.846718
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[145].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[145].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[146].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[146].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[146].position.x
+    value: 3.3254826
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[146].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[146].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[147].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[147].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[147].position.x
+    value: -4.680695
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[147].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[147].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[148].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[148].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[148].position.x
+    value: -0.36486512
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[148].position.y
+    value: -2.8355215
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[148].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[149].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[149].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[149].position.x
+    value: 3.492278
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[149].position.y
+    value: -2.6478765
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[149].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[150].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[150].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[150].position.x
+    value: 0.4482628
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[150].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[150].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[151].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[151].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[151].position.x
+    value: -4.8057914
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[151].position.y
+    value: -3.210811
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[151].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[152].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[152].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[152].position.x
+    value: -3.9509652
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[152].position.y
+    value: -3.210811
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[152].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[153].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[153].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[153].position.x
+    value: -2.8667948
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[153].position.y
+    value: -1.042471
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[153].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[154].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[154].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[154].position.x
+    value: -4.597297
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[154].position.y
+    value: -1.1258689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[154].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[155].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[155].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[155].position.x
+    value: -4.680695
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[155].position.y
+    value: -1.0007724
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[155].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[156].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[156].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[156].position.x
+    value: 2.241313
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[156].position.y
+    value: -0.79227805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[156].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[157].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[157].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[157].position.x
+    value: 2.1370652
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[157].position.y
+    value: -0.79227805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[157].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[158].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[158].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[158].position.x
+    value: 2.5957537
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[158].position.y
+    value: -1.1050196
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[158].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[159].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[159].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[159].position.x
+    value: 2.8459466
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[159].position.y
+    value: -0.97992295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[159].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[160].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[160].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[160].position.x
+    value: 3.742471
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[160].position.y
+    value: -0.938224
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[160].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[161].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[161].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[161].position.x
+    value: 3.78417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[161].position.y
+    value: -0.97992295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[161].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[162].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[162].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[162].position.x
+    value: 3.8884175
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[162].position.y
+    value: -1.2926642
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[162].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[163].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[163].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[163].position.x
+    value: 2.3664093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[163].position.y
+    value: -1.188417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[163].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[164].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[164].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[164].position.x
+    value: 2.3455606
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[164].position.y
+    value: -1.188417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[164].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[165].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[165].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[165].position.x
+    value: 2.3455606
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[165].position.y
+    value: -1.188417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[165].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[166].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[166].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[166].position.x
+    value: 2.8667955
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[166].position.y
+    value: -2.126641
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[166].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[167].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[167].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[167].position.x
+    value: 2.8459466
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[167].position.y
+    value: -2.126641
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[167].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[168].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[168].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[168].position.x
+    value: 4.034364
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[168].position.y
+    value: -2.1057916
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[168].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[169].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[169].chip
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[169].position.x
+    value: -0.36486512
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[169].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[169].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[170].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[170].chip
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[170].position.x
+    value: 0.4274128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[170].position.y
+    value: -3.3359075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[170].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[171].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[171].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[171].position.x
+    value: -0.010424996
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[171].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[171].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[172].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[172].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[172].position.x
+    value: -4.534749
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[172].position.y
+    value: -3.1899617
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[172].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[173].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[173].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[173].position.x
+    value: -4.2637067
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[173].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[173].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[174].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[174].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[174].position.x
+    value: -3.8050194
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[174].position.y
+    value: -2.7312744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[174].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[175].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[175].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[175].position.x
+    value: -4.326255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[175].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[175].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[176].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[176].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[176].position.x
+    value: -3.3671815
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[176].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[176].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[177].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[177].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[177].position.x
+    value: 3.283784
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[177].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[177].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[178].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[178].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[178].position.x
+    value: 4.096912
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[178].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[178].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[179].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[179].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[179].position.x
+    value: 3.9301152
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[179].position.y
+    value: -2.7312744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[179].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[180].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[180].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[180].position.x
+    value: 3.6382234
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[180].position.y
+    value: -2.8980696
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[180].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[181].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[181].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[181].position.x
+    value: -0.0938221
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[181].position.y
+    value: -2.7521238
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[181].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[182].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[182].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[182].position.x
+    value: 0.28146744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[182].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[182].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[183].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[183].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[183].position.x
+    value: -0.7818535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[183].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[183].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[184].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[184].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[184].position.x
+    value: -3.5339768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[184].position.y
+    value: -1.2718148
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[184].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[185].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[185].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[185].position.x
+    value: -3.8258688
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[185].position.y
+    value: -1.2718148
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[185].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[186].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[186].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[186].position.x
+    value: -3.9718146
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[186].position.y
+    value: -1.2301159
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[186].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[187].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[187].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[187].position.x
+    value: -4.534749
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[187].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[187].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[188].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[188].chip
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[188].position.x
+    value: 3.3254826
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[188].position.y
+    value: -0.8131277
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[188].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[189].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[189].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[189].position.x
+    value: -0.48996165
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[189].position.y
+    value: -3.2942085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[189].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[190].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[190].chip
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[190].position.x
+    value: 0.38571396
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[190].position.y
+    value: -3.3359075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[190].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[191].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[191].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[191].position.x
+    value: -4.1177607
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[191].position.y
+    value: -3.3984559
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[191].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[192].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[192].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[192].position.x
+    value: -4.618147
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[192].position.y
+    value: -3.2733593
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[192].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[193].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[193].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[193].position.x
+    value: -4.7015443
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[193].position.y
+    value: -3.210811
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[193].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[194].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[194].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[194].position.x
+    value: -5.1185327
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[194].position.y
+    value: -3.356757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[194].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[195].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[195].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[195].position.x
+    value: -4.8474903
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[195].position.y
+    value: -3.419305
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[195].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[196].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[196].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[196].position.x
+    value: -4.430502
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[196].position.y
+    value: -3.419305
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[196].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[197].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[197].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[197].position.x
+    value: -4.0969114
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[197].position.y
+    value: -3.419305
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[197].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[198].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[198].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[198].position.x
+    value: -3.8050194
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[198].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[198].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[199].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[199].chip
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[199].position.x
+    value: -3.6590734
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[199].position.y
+    value: -3.356757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[199].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[200].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[200].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[200].position.x
+    value: -4.0552125
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[200].position.y
+    value: -2.7521238
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[200].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[201].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[201].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[201].position.x
+    value: -4.1594596
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[201].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[201].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[202].spot
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[202].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[202].position.x
+    value: -3.7216218
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[202].position.y
+    value: -2.6687262
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[202].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[203].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[203].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[203].position.x
+    value: -0.656757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[203].position.y
+    value: -2.7521238
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[203].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[204].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[204].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[204].position.x
+    value: -0.5733588
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[204].position.y
+    value: -2.7312744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[204].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[205].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[205].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[205].position.x
+    value: -0.34401572
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[205].position.y
+    value: -2.6895754
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[205].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[206].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[206].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[206].position.x
+    value: 0.38571396
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[206].position.y
+    value: -2.6687262
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[206].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[207].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[207].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[207].position.x
+    value: 0.32316628
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[207].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[207].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[208].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[208].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[208].position.x
+    value: -0.21891919
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[208].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[208].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[209].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[209].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[209].position.x
+    value: -0.38571396
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[209].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[209].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[210].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[210].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[210].position.x
+    value: -0.6359076
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[210].position.y
+    value: -3.2316604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[210].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[211].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[211].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[211].position.x
+    value: -3.7216218
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[211].position.y
+    value: -1.2718148
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[211].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[212].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[212].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[212].position.x
+    value: -4.1594596
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[212].position.y
+    value: -1.2301159
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[212].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[213].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[213].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[213].position.x
+    value: -4.326255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[213].position.y
+    value: -1.2301159
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[213].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[214].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[214].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[214].position.x
+    value: -4.367954
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[214].position.y
+    value: -1.2092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[214].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[215].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[215].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[215].position.x
+    value: -4.1177607
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[215].position.y
+    value: -1.0007724
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[215].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[216].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[216].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[216].position.x
+    value: -3.7633204
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[216].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[216].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[217].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[217].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[217].position.x
+    value: -3.5965252
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[217].position.y
+    value: -0.79227805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[217].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[218].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[218].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[218].position.x
+    value: -3.5548263
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[218].position.y
+    value: -0.7714287
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[218].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[219].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[219].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[219].position.x
+    value: -3.242085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[219].position.y
+    value: -0.7714287
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[219].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[220].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[220].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[220].position.x
+    value: -2.9918919
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[220].position.y
+    value: -1.1258689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[220].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[221].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[221].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[221].position.x
+    value: -2.9918919
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[221].position.y
+    value: -1.1675676
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[221].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[222].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[222].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[222].position.x
+    value: -3.0127413
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[222].position.y
+    value: -1.2092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[222].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[223].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[223].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[223].position.x
+    value: 2.3455606
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[223].position.y
+    value: -0.97992295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[223].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[224].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[224].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[224].position.x
+    value: 1.7617768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[224].position.y
+    value: -1.2301159
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[224].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[225].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[225].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[225].position.x
+    value: 1.8451734
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[225].position.y
+    value: -1.2926642
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[225].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[226].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[226].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[226].position.x
+    value: 1.928571
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[226].position.y
+    value: -1.2926642
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[226].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[227].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[227].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[227].position.x
+    value: 2.5123549
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[227].position.y
+    value: -1.2092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[227].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[228].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[228].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[228].position.x
+    value: 2.7625477
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[228].position.y
+    value: -1.1675676
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[228].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[229].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[229].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[229].position.x
+    value: 3.6590734
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[229].position.y
+    value: -0.97992295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[229].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[230].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[230].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[230].position.x
+    value: 3.76332
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[230].position.y
+    value: -0.896525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[230].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[231].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[231].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[231].position.x
+    value: 2.428957
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[231].position.y
+    value: -0.7714287
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[231].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[232].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[232].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[232].position.x
+    value: 3.8675675
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[232].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[232].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[233].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[233].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[233].position.x
+    value: 3.9301152
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[233].position.y
+    value: -0.938224
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[233].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[234].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[234].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[234].position.x
+    value: 4.013514
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[234].position.y
+    value: -1.0216217
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[234].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[235].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[235].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[235].position.x
+    value: 4.055212
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[235].position.y
+    value: -1.1258689
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[235].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[236].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[236].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[236].position.x
+    value: 3.513128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[236].position.y
+    value: -1.2718148
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[236].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[237].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[237].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[237].position.x
+    value: 3.0127409
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[237].position.y
+    value: -1.188417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[237].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[238].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[238].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[238].position.x
+    value: 2.6374524
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[238].position.y
+    value: -1.1467183
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[238].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[239].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[239].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[239].position.x
+    value: 2.3038616
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[239].position.y
+    value: -1.0633206
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[239].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[240].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[240].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[240].position.x
+    value: 2.0328188
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[240].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[240].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[241].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[241].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[241].position.x
+    value: 1.928571
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[241].position.y
+    value: -0.8131277
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[241].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[242].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[242].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[242].position.x
+    value: 3.3463316
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[242].position.y
+    value: -0.79227805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[242].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[243].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[243].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[243].position.x
+    value: 3.0961385
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[243].position.y
+    value: -0.79227805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[243].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[244].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[244].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[244].position.x
+    value: 3.0961385
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[244].position.y
+    value: -0.8548264
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[244].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[245].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[245].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[245].position.x
+    value: 3.4297304
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[245].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[245].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[246].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[246].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[246].position.x
+    value: 3.6173747
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[246].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[246].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[247].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[247].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[247].position.x
+    value: 3.9718142
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[247].position.y
+    value: -2.2934365
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[247].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[248].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[248].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[248].position.x
+    value: 3.6799223
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[248].position.y
+    value: -2.627027
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[248].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[249].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[249].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[249].position.x
+    value: 3.4297304
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[249].position.y
+    value: -2.7312744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[249].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[250].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[250].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[250].position.x
+    value: 3.1586874
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[250].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[250].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[251].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[251].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[251].position.x
+    value: 3.1586874
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[251].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[251].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[252].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[252].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[252].position.x
+    value: 2.9293442
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[252].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[252].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[253].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[253].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[253].position.x
+    value: 4.034364
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[253].position.y
+    value: -2.6895754
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[253].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[254].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[254].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[254].position.x
+    value: -3.9509652
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[254].position.y
+    value: -3.210811
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[254].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[255].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[255].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[255].position.x
+    value: -3.930116
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[255].position.y
+    value: -3.2525096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[255].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[256].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[256].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[256].position.x
+    value: -4.5555983
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[256].position.y
+    value: -3.3984559
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[256].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[257].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[257].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[257].position.x
+    value: -4.826641
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[257].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[257].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[258].spot
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[258].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[258].position.x
+    value: -5.2644787
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[258].position.y
+    value: -3.210811
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[258].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[259].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[259].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[259].position.x
+    value: 0.32316628
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[259].position.y
+    value: -3.3776064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[259].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[260].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[260].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[260].position.x
+    value: -0.114672095
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[260].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[260].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[261].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[261].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[261].position.x
+    value: -0.052123833
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[261].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[261].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[262].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[262].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[262].position.x
+    value: 0.13552094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[262].position.y
+    value: -2.7312744
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[262].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[263].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[263].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[263].position.x
+    value: 0.46911165
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[263].position.y
+    value: -2.6895754
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[263].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[264].spot
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[264].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[264].position.x
+    value: -0.46911165
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[264].position.y
+    value: -2.7104247
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[264].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[265].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[265].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[265].position.x
+    value: -0.40656397
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[265].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[265].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[266].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[266].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[266].position.x
+    value: 0.031274416
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[266].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[266].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[267].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[267].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[267].position.x
+    value: 0.23976746
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[267].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[267].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[268].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[268].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[268].position.x
+    value: 0.26061746
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[268].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[268].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[269].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[269].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[269].position.x
+    value: 0.3023163
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[269].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[269].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[270].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[270].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[270].position.x
+    value: -0.15637094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[270].position.y
+    value: -2.2100387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[270].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[271].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[271].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[271].position.x
+    value: -3.4088805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[271].position.y
+    value: -1.2509656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[271].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[272].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[272].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[272].position.x
+    value: -3.242085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[272].position.y
+    value: -1.2092665
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[272].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[273].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[273].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[273].position.x
+    value: -4.430502
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[273].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[273].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[274].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[274].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[274].position.x
+    value: 3.3671815
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[274].position.y
+    value: -1.0216217
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[274].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[275].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[275].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[275].position.x
+    value: 3.3046327
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[275].position.y
+    value: -0.896525
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[275].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[276].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[276].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[276].position.x
+    value: 2.1370652
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[276].position.y
+    value: -0.7088804
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[276].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[277].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[277].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[277].position.x
+    value: 3.1795373
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[277].position.y
+    value: -0.79227805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[277].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[278].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[278].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[278].position.x
+    value: 3.242085
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[278].position.y
+    value: -0.95907366
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[278].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[279].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[279].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[279].position.x
+    value: 3.2003863
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[279].position.y
+    value: -1.08417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[279].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[280].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[280].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[280].position.x
+    value: 2.6583014
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[280].position.y
+    value: -0.8131277
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[280].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[281].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[281].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[281].position.x
+    value: 2.9293442
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[281].position.y
+    value: -0.8548264
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[281].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[282].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[282].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[282].position.x
+    value: 3.6382234
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[282].position.y
+    value: -1.08417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[282].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[283].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[283].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[283].position.x
+    value: 3.8884175
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[283].position.y
+    value: -1.188417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[283].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[284].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[284].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[284].position.x
+    value: 3.9509652
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[284].position.y
+    value: -1.3343629
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[284].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[285].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[285].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[285].position.x
+    value: 2.9084942
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[285].position.y
+    value: -1.2926642
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[285].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[286].spot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[286].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[286].position.x
+    value: 2.8459466
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[286].position.y
+    value: -1.2926642
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[286].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[287].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[287].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[287].position.x
+    value: -3.846718
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[287].position.y
+    value: -1.188417
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[287].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[288].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[288].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[288].position.x
+    value: -3.1795368
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[288].position.y
+    value: -1.0216217
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[288].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[289].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[289].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[289].position.x
+    value: -3.0127413
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[289].position.y
+    value: -0.8756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[289].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[290].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[290].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[290].position.x
+    value: -3.0127413
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[290].position.y
+    value: -0.7297298
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[290].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[291].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[291].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[291].position.x
+    value: -4.326255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[291].position.y
+    value: -0.8548264
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[291].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[292].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[292].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[292].position.x
+    value: -4.0969114
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[292].position.y
+    value: -0.938224
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[292].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[293].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[293].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[293].position.x
+    value: -3.8258688
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[293].position.y
+    value: -1.0216217
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[293].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[294].spot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[294].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[294].position.x
+    value: -3.5756757
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[294].position.y
+    value: -1.1467183
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[294].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[295].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[295].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[295].position.x
+    value: -3.7007723
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[295].position.y
+    value: -2.1474905
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[295].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[296].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[296].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[296].position.x
+    value: -3.7216218
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[296].position.y
+    value: -2.1891892
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[296].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[297].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[297].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[297].position.x
+    value: -4.2220078
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[297].position.y
+    value: -2.2308881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[297].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[298].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[298].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[298].position.x
+    value: -4.2220078
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[298].position.y
+    value: -2.2308881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[298].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[299].spot
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[299].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[299].position.x
+    value: -4.2220078
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[299].position.y
+    value: -2.2308881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[299].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[300].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[300].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[300].position.x
+    value: -0.5316599
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[300].position.y
+    value: -2.1891892
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[300].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[301].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[301].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[301].position.x
+    value: -0.3231657
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[301].position.y
+    value: -2.2308881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[301].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[302].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[302].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[302].position.x
+    value: 0.052124407
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[302].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[302].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[303].spot
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[303].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[303].position.x
+    value: 0.15637094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[303].position.y
+    value: -2.2725868
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[303].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[304].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[304].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[304].position.x
+    value: 3.3463316
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[304].position.y
+    value: -2.3559844
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[304].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[305].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[305].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[305].position.x
+    value: 3.513128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[305].position.y
+    value: -2.3351352
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[305].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[306].spot
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[306].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[306].position.x
+    value: 3.8467176
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[306].position.y
+    value: -2.2517376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[306].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[307].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[307].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[307].position.x
+    value: 3.9509652
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[307].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[307].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[308].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[308].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[308].position.x
+    value: 3.9301152
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[308].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[308].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[309].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[309].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[309].position.x
+    value: 3.0335908
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[309].position.y
+    value: -2.7938225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[309].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[310].spot
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[310].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[310].position.x
+    value: 2.741699
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[310].position.y
+    value: -2.7521238
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[310].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[311].spot
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[311].chip
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[311].position.x
+    value: 0.010424424
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[311].position.y
+    value: -3.3359075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bots.Array.data[311].position.z
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

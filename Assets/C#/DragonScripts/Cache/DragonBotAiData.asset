@@ -1,0 +1,2175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9edb605ead46ff4ca2d281d736aa8ac, type: 3}
+  m_Name: DragonBotAiData
+  m_EditorClassIdentifier: 
+  chipDetails:
+  - target: {x: -3.5750916, y: -1.5824175, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.8485959, y: -0.6446883, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.0671544, y: -0.80097646, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.1843712, y: -1.3870573, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.6532357, y: -1.4261293, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.028083, y: -0.8400485, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.028083, y: -1.6214893, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -0.41025588, y: -1.4652011, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.41025588, y: -0.7619044, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.44932896, y: -0.56654453, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.058608588, y: -1.1526248, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.48840103, y: -1.308913, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.56654507, y: -1.2307692, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.41025588, y: -0.5274722, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.17582364, y: -1.269841, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.25396773, y: -1.035409, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.1758247, y: -0.8400485, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.21489568, y: -1.1916971, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.33211285, y: -1.1916971, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.56654507, y: -0.99633664, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 3.0671556, y: -1.7387056, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 2.9108675, y: -1.5433455, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.3406599, y: -1.035409, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.7704523, y: -0.8791208, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.653237, y: -1.5433455, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.7313812, y: -1.8559217, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 4.161173, y: -1.4261293, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.8876684, y: -1.035409, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.1062286, y: -0.8791208, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 2.9108675, y: -1.3870573, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.3406599, y: -1.4652011, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 4.0439568, y: -1.2307692, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: -3.4578755, y: -2.090354, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.9267395, y: -1.1135528, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.7936502, y: -0.6056163, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.1062264, y: -1.269841, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.1843712, y: -1.7777774, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.0671544, y: -1.8949938, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 2
+  - target: {x: 0.01953655, y: -1.3479853, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.48839995, y: -1.035409, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.3711849, y: -0.4102564, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.21489674, y: -1.4261293, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.3711849, y: -1.5042734, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.56654507, y: -1.3479853, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.52747303, y: -0.56654453, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.41025588, y: -0.5274722, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.48839995, y: -1.074481, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 3
+  - target: {x: 3.3015888, y: -1.6996336, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 5
+  - target: {x: 2.9890115, y: -1.3479853, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.6923082, y: -0.99633664, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.7313812, y: -2.2857141, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.6923082, y: -2.5201464, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 3
+  - target: {x: 4.27839, y: -2.4810743, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.575093, y: -1.5824175, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.457876, y: -2.3247862, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.653237, y: -1.3870573, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 3
+  - target: {x: -0.37118438, y: -1.6605616, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.48839995, y: -0.8791208, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.1758247, y: -0.56654453, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.13675267, y: -1.3870573, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.25396773, y: -1.5042734, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.33211234, y: -0.9572646, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.09767957, y: -1.269841, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: 3.0671556, y: -1.1135528, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 3
+  - target: {x: 2.5592191, y: -1.8168497, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.53602, y: -1.6996336, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: 2.8327234, y: -0.91819286, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 1
+  - target: {x: 2.9108675, y: -0.9572646, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.53602, y: -0.8400485, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.8095243, y: -1.269841, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: -3.7704518, y: -1.8168497, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.4188027, y: -0.8400485, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.2625153, y: -1.6996336, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.6764348, y: -0.9572646, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -2.871795, y: -0.7228327, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.1452992, y: -1.3870573, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.2625153, y: -1.269841, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.8485959, y: -1.2307692, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.887668, y: -1.7777774, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.3406594, y: -1.2307692, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.7313793, y: -0.80097646, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.4578755, y: -2.051282, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.4188027, y: -2.051282, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.4578755, y: -1.5042734, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.7313793, y: -0.99633664, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.910867, y: -1.269841, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.6532357, y: -1.308913, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.6532357, y: -0.91819286, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.3797314, y: -1.1916971, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.4969475, y: -1.5824175, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 4
+  - target: {x: -2.910867, y: -1.269841, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 5
+  - target: {x: -2.910867, y: -1.2307692, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 5
+  - target: {x: -2.4810739, y: -1.1135528, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 5
+  - target: {x: -2.754578, y: -1.6996336, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 1
+  - target: {x: -0.37118438, y: -1.074481, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.44932792, y: -0.56654453, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.7228332, y: -1.035409, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.6837612, y: -1.1916971, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.48840103, y: -0.80097646, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.48840103, y: -0.7619044, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 2
+  - target: {x: 3.0671556, y: -1.6605616, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 2
+  - target: {x: 2.7936513, y: -1.1916971, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.3406599, y: -0.9572646, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.6923082, y: -1.074481, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.6923082, y: -1.6605616, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 2
+  - target: {x: 2.9499404, y: -2.20757, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.9499404, y: -1.3870573, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.1062286, y: -1.4261293, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.2234437, y: -1.5433455, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 5
+  - target: {x: 2.7545803, y: -1.9340656, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.7313812, y: -1.1135528, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.418804, y: -1.3870573, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.0280845, y: -1.5433455, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.3797328, y: -1.269841, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 3
+  - target: {x: 2.7155073, y: -1.7387056, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.614164, y: -2.051282, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.7313812, y: -0.8791208, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.0671556, y: -1.035409, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 1
+  - target: {x: -0.7228322, y: -1.4261293, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.8009763, y: -0.332112, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.09768063, y: -0.5274722, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.1758247, y: -0.6056163, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.33211234, y: -1.4652011, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.33211285, y: -1.308913, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 4
+  - target: {x: -3.6923077, y: -2.3247862, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.7704518, y: -0.8400485, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.4578755, y: -0.7228327, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.0671544, y: -1.1526248, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.4969475, y: -1.8168497, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.7313793, y: -1.3479853, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 3
+  - target: {x: 2.5982912, y: -1.8949938, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.1062286, y: -1.4652011, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.1062286, y: -1.6996336, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.3406599, y: -2.051282, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.53602, y: -2.129426, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 3
+  - target: {x: 2.9499404, y: -0.8400485, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 4
+  - target: {x: -0.29303977, y: -1.3479853, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.8009763, y: -0.44932812, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.17582364, y: -0.48840016, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 5
+  - target: {x: -0.37118438, y: -0.80097646, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.41025692, y: -0.48840016, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.6056171, y: -1.1916971, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 1
+  - target: {x: -2.832723, y: -1.5042734, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 4
+  - target: {x: -2.7936502, y: -0.7619044, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.4188027, y: -0.91819286, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.5750916, y: -0.91819286, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.5750916, y: -1.7387056, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 3
+  - target: {x: -2.7155068, y: -1.5433455, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -2.7155068, y: -2.2857141, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.6923077, y: -1.5433455, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.9267395, y: -0.80097646, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.3015873, y: -0.7619044, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.0671544, y: -0.7619044, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.2625153, y: -1.5042734, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -4.083028, y: -1.9340656, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 4
+  - target: {x: -4.0439553, y: -1.1916971, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: 0.33211285, y: -1.3479853, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.6056161, y: -1.4261293, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.527472, y: -0.5274722, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.09768063, y: -0.5274722, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.33211234, y: -1.1916971, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.64468914, y: -0.37118405, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: 3.1452997, y: -1.8168497, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.653237, y: -1.4652011, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.8485963, y: -1.3870573, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 4.0048857, y: -2.2857141, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 2.9499404, y: -2.5592184, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 2.7936513, y: -1.6996336, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.8095243, y: -1.6605616, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.575093, y: -0.80097646, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 4
+  - target: {x: 4.0439568, y: -2.3247862, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 0.01953655, y: -1.4652011, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.21489568, y: -0.6446883, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.41025692, y: -0.48840016, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.44932896, y: -1.2307692, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 4
+  - target: {x: 2.5592191, y: -2.051282, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.6764362, y: -1.1526248, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.9658124, y: -1.269841, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.0280845, y: -1.7777774, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.1062286, y: -1.3479853, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.1452997, y: -1.4261293, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.614164, y: -1.074481, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 1
+  - target: {x: -2.754578, y: -1.7387056, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.2234433, y: -1.1135528, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -4.0439553, y: -1.6605616, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.7313793, y: -1.6996336, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -0.25396773, y: -1.5824175, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.41025588, y: -1.1526248, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.058608588, y: -0.56654453, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.09768063, y: -0.91819286, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 3
+  - target: {x: -3.1452992, y: -1.1526248, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.3015873, y: -0.56654453, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -2.949939, y: -1.308913, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.3797314, y: -1.8949938, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 4
+  - target: {x: 2.5592191, y: -1.8168497, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.496948, y: -1.269841, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.653237, y: -1.308913, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.3406599, y: -1.6605616, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 2
+  - target: {x: -3.6532357, y: -1.5042734, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.887668, y: -0.6056163, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.4969475, y: -1.9731379, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.6141636, y: -2.20757, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.7704518, y: -1.6605616, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: 0.3711849, y: -1.3479853, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.44932792, y: -1.1135528, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.41025692, y: -0.7619044, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: 2.9108675, y: -1.5433455, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.3406599, y: -1.074481, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.9658124, y: -0.8400485, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.8485963, y: -1.4261293, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.1452997, y: -2.3638582, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 2.5592191, y: -2.4029303, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 2.8327234, y: -1.6605616, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: -0.37118438, y: -1.1916971, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.058608588, y: -1.074481, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 5
+  - target: {x: 3.575093, y: -0.91819286, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.2625158, y: -1.3870573, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.9890115, y: -1.7387056, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.1452997, y: -2.246642, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.496948, y: -2.3247862, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 4
+  - target: {x: -3.5360196, y: -1.8168497, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 4
+  - target: {x: -2.871795, y: -1.4652011, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 5
+  - target: {x: -4.0439553, y: -1.1135528, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.5360196, y: -1.035409, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.9267395, y: -1.5433455, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 4
+  - target: {x: 3.2234437, y: -2.090354, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.7313812, y: -1.6996336, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 2
+  - target: {x: -0.48839995, y: -2.090354, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.44932792, y: -1.074481, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.1367516, y: -0.99633664, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 2
+  - target: {x: -3.6532357, y: -1.6605616, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.1843712, y: -0.91819286, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.1843712, y: -1.8949938, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.5592186, y: -1.6214893, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 2
+  - target: {x: 3.7313812, y: -1.7387056, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 1
+  - target: {x: 2.5982912, y: -0.99633664, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.6923082, y: -1.5433455, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 5
+  - target: {x: 4.0048857, y: -1.5433455, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 4
+  - target: {x: -0.17582364, y: -1.7777774, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.7228322, y: -0.80097646, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.09767957, y: -0.68376034, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.09767957, y: -0.80097646, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 5
+  - target: {x: -4.083028, y: -1.6214893, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.6923077, y: -0.8791208, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 3
+  - target: {x: -2.5592186, y: -0.91819286, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 3
+  - target: {x: -2.871795, y: -1.6214893, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.0671544, y: -2.2857141, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.4578755, y: -1.5042734, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.4578755, y: -1.4652011, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.7313793, y: -1.5824175, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.5360196, y: -1.2307692, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.028083, y: -0.7619044, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.2234433, y: -2.090354, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -2.7936502, y: -1.6996336, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.5360196, y: -1.3479853, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.8095238, y: -1.3870573, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.3797314, y: -1.9731379, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.028083, y: -1.2307692, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.2234433, y: -2.090354, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.7313793, y: -1.269841, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -0.25396773, y: -0.80097646, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.29303977, y: -1.308913, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.1367516, y: -0.91819286, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.76190525, y: -0.6446883, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.3711849, y: -1.8168497, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: -0.09767957, y: -1.4652011, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: 3.1843717, y: -1.7777774, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.1843717, y: -1.308913, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 2.6373632, y: -0.9572646, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.53602, y: -1.5824175, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.53602, y: -1.9340656, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.614164, y: -2.5592184, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 4
+  - target: {x: -0.33211234, y: -1.8168497, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.8009763, y: -1.1916971, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.01953602, y: -0.80097646, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.21489674, y: -1.074481, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 2
+  - target: {x: 3.3797328, y: -1.7387056, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 3
+  - target: {x: 2.9108675, y: -1.1526248, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.8095243, y: -1.074481, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.8876684, y: -1.5042734, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.8876684, y: -2.168498, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.496948, y: -1.9340656, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: -3.8095238, y: -1.5433455, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.3797314, y: -0.56654453, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.3406594, y: -0.56654453, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.2625153, y: -1.5433455, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.3406594, y: -1.8949938, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.6532357, y: -1.308913, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.7155068, y: -0.8791208, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.6764348, y: -1.8949938, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.7313793, y: -1.6214893, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.3406594, y: -0.8791208, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.910867, y: -0.8791208, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -2.832723, y: -1.269841, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.910867, y: -1.4261293, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.6141636, y: -1.1916971, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -2.989011, y: -0.99633664, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -0.25396773, y: -0.8791208, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.25396878, y: -0.7619044, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.6837607, y: -0.9572646, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.64468914, y: -0.7228327, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.09767957, y: -2.090354, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.25396878, y: -1.074481, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 4
+  - target: {x: 3.418804, y: -1.7777774, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 2.7545803, y: -0.99633664, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.496948, y: -0.8400485, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.496948, y: -1.7387056, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.496948, y: -1.8168497, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 4
+  - target: {x: 0.01953655, y: -1.1916971, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.56654406, y: -0.7228327, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.64468914, y: -0.80097646, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.13675267, y: -1.1526248, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 1
+  - target: {x: -2.754578, y: -1.8168497, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -2.989011, y: -1.269841, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.7313793, y: -1.4261293, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.7704518, y: -1.7777774, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.1062264, y: -2.01221, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.8485959, y: -1.2307692, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 3
+  - target: {x: 3.0280845, y: -2.20757, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 2
+  - target: {x: 2.7936513, y: -1.6605616, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.0280845, y: -0.99633664, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.457876, y: -1.1916971, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.3406599, y: -1.6605616, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 5
+  - target: {x: 4.0048857, y: -1.035409, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 2
+  - target: {x: -0.6056161, y: -0.9572646, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.56654507, y: -0.7228327, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.21489674, y: -1.5042734, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.3711849, y: -0.9572646, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: 3.1062286, y: -1.5824175, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 1
+  - target: {x: 2.402932, y: -1.035409, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.53602, y: -0.91819286, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.53602, y: -1.9340656, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 3
+  - target: {x: -3.3797314, y: -1.6605616, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.1452992, y: -0.6056163, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.887668, y: -0.99633664, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.4188027, y: -1.8168497, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.6923077, y: -1.8559217, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.3015873, y: -1.7387056, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.3311765, y: -1.501618, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.0550163, y: -0.84573895, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.4347367, y: -2.0884573, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: 0.12081995, y: -1.6396978, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: -0.05178028, y: -0.60409904, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 3.779936, y: -1.1564183, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 2.8824172, y: -2.2610571, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.779936, y: -1.9503775, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 0.017260447, y: -1.3980582, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.32794002, y: -0.39697945, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.36245984, y: -1.0528588, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 4
+  - target: {x: 3.0204966, y: -1.5706581, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.0204966, y: -0.94929874, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.2276165, y: -1.501618, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.331176, y: -1.8813374, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.8133776, y: -2.5717366, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 4
+  - target: {x: -3.0204966, y: -1.8813374, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.4347367, y: -1.1909387, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.883496, y: -1.1909387, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.9525356, y: -2.1574974, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -2.8478973, y: -1.6051781, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.2276165, y: -1.2944984, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: 0.46601933, y: -1.4325783, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.6386201, y: -1.2944984, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.6386201, y: -0.43149948, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.3969802, y: -0.5350593, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 5
+  - target: {x: -0.36246037, y: -1.1909387, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.36245984, y: -0.5695793, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 2
+  - target: {x: 3.5037763, y: -1.9503775, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.1930957, y: -1.2599784, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.331176, y: -1.1218987, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.987055, y: -1.0183388, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 2
+  - target: {x: -3.158577, y: -2.1229773, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.2966561, y: -0.9838185, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.6418562, y: -0.9838185, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 1
+  - target: {x: -4.056095, y: -1.467098, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.5728164, y: -1.6396978, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.5728164, y: -1.6396978, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: 3.987055, y: -1.1564183, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 1
+  - target: {x: 2.8824172, y: -1.1564183, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 5
+  - target: {x: 2.7443368, y: -1.3980582, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 3
+  - target: {x: 2.7443368, y: -1.6051781, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 2
+  - target: {x: 2.9859767, y: -1.6051781, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 1
+  - target: {x: 2.675296, y: -1.6396978, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.1585758, y: -1.536138, z: 0}
+    chip: 1000
+    spot: 2
+    spawnNo: 1
+  - target: {x: -0.32794002, y: -1.536138, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.3969802, y: -0.9838185, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.56957936, y: -0.84573895, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.70765924, y: -0.39697945, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.50054026, y: -1.0528588, z: 0}
+    chip: 1000
+    spot: 1
+    spawnNo: 4
+  - target: {x: -3.8489761, y: -1.0528588, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.5728164, y: -1.0528588, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.7799356, y: -2.0539374, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.9859767, y: -1.3635385, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.2276165, y: -2.192017, z: 0}
+    chip: 1000
+    spot: 0
+    spawnNo: 5
+  - target: {x: 3.4347355, y: -1.3635385, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.8824172, y: -1.2599784, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.4002156, y: -1.1909387, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.124056, y: -1.7087379, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.365696, y: -1.7087379, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.9859767, y: -1.1909387, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.7788577, y: -1.1909387, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.5037763, y: -1.0873785, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 1
+  - target: {x: 2.8133776, y: -1.9158578, z: 0}
+    chip: 5000
+    spot: 2
+    spawnNo: 5
+  - target: {x: -0.017259916, y: -1.7777777, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.017259916, y: -1.0183388, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.8112193, y: -0.880259, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.15533978, y: -0.60409904, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.39697966, y: -0.7766989, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.4314995, y: -1.2599784, z: 0}
+    chip: 5000
+    spot: 1
+    spawnNo: 2
+  - target: {x: -3.2276165, y: -1.9848976, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.3311765, y: -1.0183388, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.7108958, y: -1.0183388, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.9870555, y: -2.2610571, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 5
+  - target: {x: -2.709817, y: -1.9503775, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 4
+  - target: {x: -2.916937, y: -1.6742179, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -2.5372174, y: -1.3635385, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.5728164, y: -0.74217916, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.7108958, y: -0.7766989, z: 0}
+    chip: 5000
+    spot: 0
+    spawnNo: 4
+  - target: {x: 3.6073358, y: -2.1229773, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.6407762, y: -1.4325783, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.7443368, y: -1.0183388, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.331176, y: -1.9503775, z: 0}
+    chip: 500
+    spot: 2
+    spawnNo: 3
+  - target: {x: -0.5005397, y: -1.4325783, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.6040992, y: -0.43149948, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.18985961, y: -0.43149948, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.18985961, y: -0.7766989, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.8112198, y: -1.1218987, z: 0}
+    chip: 500
+    spot: 1
+    spawnNo: 2
+  - target: {x: -3.3311765, y: -1.9503775, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.2966561, y: -1.2599784, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.9870555, y: -1.0528588, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 5
+  - target: {x: -4.0215755, y: -2.330097, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -2.8824172, y: -1.6396978, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.158577, y: -0.9147787, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.4002163, y: -1.2254584, z: 0}
+    chip: 500
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.124057, y: -1.6742179, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 1
+  - target: {x: -4.056095, y: -1.4325783, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.0204966, y: -0.880259, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.1930966, y: -2.0194173, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.918016, y: -1.3290181, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.3311765, y: -0.6731391, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.7443373, y: -2.3991368, z: 0}
+    chip: 50
+    spot: 0
+    spawnNo: 2
+  - target: {x: -0.25890034, y: -1.5706581, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.7076598, y: -0.6731391, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.46601987, y: -0.4660192, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 5
+  - target: {x: -0.36246037, y: -0.9838185, z: 0}
+    chip: 50
+    spot: 1
+    spawnNo: 1
+  - target: {x: 3.0895362, y: -1.6396978, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.8144557, y: -1.2254584, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.987055, y: -1.501618, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 4
+  - target: {x: 4.0906143, y: -2.2610571, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.1930957, y: -2.330097, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.1585758, y: -2.192017, z: 0}
+    chip: 50
+    spot: 2
+    spawnNo: 4
+  - target: {x: -3.3656964, y: -1.501618, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.3311765, y: -0.60409904, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.8478973, y: -1.8122977, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.4692564, y: -1.9158578, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.918016, y: -1.2599784, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.883496, y: -1.2944984, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -0.46601987, y: -1.536138, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.3969802, y: -0.5695793, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.25890034, y: -0.60409904, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.08630011, y: -1.1909387, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.8457396, y: -0.6731391, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.50054026, y: -1.467098, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: 3.1930957, y: -1.9503775, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.0895362, y: -1.3635385, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.1585758, y: -1.0183388, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.8489757, y: -0.8112189, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.9525352, y: -1.1909387, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.7454162, y: -1.467098, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.779936, y: -1.5706581, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 0.017260447, y: -0.6731391, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.6040992, y: -0.63861907, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.6040992, y: -1.2599784, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.36245984, y: -1.2254584, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 4
+  - target: {x: 0.53506005, y: -0.880259, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: 3.2276165, y: -1.501618, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.1585758, y: -1.0183388, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.6418557, y: -1.1218987, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.5037763, y: -1.8468175, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 4
+  - target: {x: 2.9859767, y: -1.3290181, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 2
+  - target: {x: 2.5717366, y: -2.0539374, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 3
+  - target: {x: -3.2966561, y: -1.5706581, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -2.6407773, y: -1.1218987, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.6418562, y: -1.5706581, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 2
+  - target: {x: -3.3656964, y: -0.5695793, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.1930966, y: -2.0539374, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.8489761, y: -1.2254584, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.6418562, y: -0.7766989, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.1930966, y: -1.9503775, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.3656964, y: -2.1574974, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 2
+  - target: {x: -2.571737, y: -1.467098, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 1
+  - target: {x: -2.916937, y: -2.192017, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -0.36246037, y: -0.50053954, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.08630011, y: -0.36245942, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.08630011, y: -1.6396978, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.05178028, y: -0.84573895, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.39697966, y: -1.501618, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: 0.6040987, y: -1.467098, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.017260447, y: -1.3635385, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 2
+  - target: {x: 0.29342017, y: -0.8112189, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 3
+  - target: {x: 3.6418557, y: -1.9503775, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.1930957, y: -2.0539374, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 4
+  - target: {x: 3.4692554, y: -1.0528588, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.6418557, y: -1.5706581, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 0.18985961, y: -1.0873785, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 3
+  - target: {x: -0.32794002, y: -1.536138, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 3
+  - target: {x: 2.5717366, y: -0.84573895, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: -3.4692564, y: -1.1564183, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.2966561, y: -2.3991368, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.2966561, y: -2.2265372, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.8489761, y: -0.84573895, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 3
+  - target: {x: -3.0204966, y: -0.7076591, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.2621365, y: -1.3635385, z: 0}
+    chip: 10
+    spot: 0
+    spawnNo: 4
+  - target: {x: -0.43150002, y: -1.743258, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 1
+  - target: {x: -0.32794002, y: -1.1218987, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.05178028, y: -0.7766989, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 0.15533978, y: -1.1564183, z: 0}
+    chip: 10
+    spot: 1
+    spawnNo: 5
+  - target: {x: 3.0895362, y: -1.9848976, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.2966561, y: -1.0528588, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.987055, y: -1.3290181, z: 0}
+    chip: 10
+    spot: 2
+    spawnNo: 1
+  - target: {x: 0.08630011, y: -1.3980582, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.32794002, y: -0.7076591, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: -0.3969802, y: -1.743258, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: 0.22437945, y: -1.1218987, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.08630011, y: -0.84573895, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 1
+  - target: {x: -3.9870555, y: -1.501618, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 5
+  - target: {x: -3.2966561, y: -0.9838185, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.2966561, y: -1.7087379, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: 3.0895362, y: -1.5706581, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 5
+  - target: {x: 3.6763754, y: -1.1218987, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 1
+  - target: {x: 3.4692554, y: -1.743258, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 2
+  - target: {x: 3.1585758, y: -1.7087379, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 3
+  - target: {x: 3.0550163, y: -0.880259, z: 0}
+    chip: 100
+    spot: 2
+    spawnNo: 2
+  - target: {x: -0.22437997, y: -1.6396978, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 2
+  - target: {x: -0.5350595, y: -0.39697945, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: -0.43150002, y: -0.43149948, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 4
+  - target: {x: -0.017259916, y: -0.5695793, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: -0.05178028, y: -1.0528588, z: 0}
+    chip: 100
+    spot: 1
+    spawnNo: 5
+  - target: {x: -3.1930966, y: -1.6396978, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 4
+  - target: {x: -3.124057, y: -1.0528588, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 1
+  - target: {x: -3.4002163, y: -1.0873785, z: 0}
+    chip: 100
+    spot: 0
+    spawnNo: 4

@@ -1,0 +1,48 @@
+
+Tiger vs Dragone.png
+size: 1929,1721
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 1430, 183
+  size: 1058, 416
+  orig: 1058, 416
+  offset: 0, 0
+  index: -1
+19
+  rotate: false
+  xy: 974, 1243
+  size: 953, 476
+  orig: 953, 476
+  offset: 0, 0
+  index: -1
+20
+  rotate: true
+  xy: 2, 538
+  size: 1181, 477
+  orig: 1181, 477
+  offset: 0, 0
+  index: -1
+21
+  rotate: true
+  xy: 986, 91
+  size: 1150, 442
+  orig: 1150, 442
+  offset: 0, 0
+  index: -1
+24
+  rotate: false
+  xy: 2, 2
+  size: 982, 534
+  orig: 982, 534
+  offset: 0, 0
+  index: -1
+25
+  rotate: true
+  xy: 481, 552
+  size: 1167, 491
+  orig: 1167, 491
+  offset: 0, 0
+  index: -1

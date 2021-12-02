@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &984143225146383539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984143225146383540}
+  - component: {fileID: 984143225146383536}
+  - component: {fileID: 984143225146383537}
+  - component: {fileID: 984143225146383538}
+  - component: {fileID: 984143225146383542}
+  - component: {fileID: 984143225146383541}
+  - component: {fileID: 984143225146383531}
+  - component: {fileID: 984143225146383530}
+  - component: {fileID: 984143225146383543}
+  m_Layer: 0
+  m_Name: mainUnite
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 75149990754645c4899f410eed0b2858, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &984143225146383540
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -12.13, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &984143225146383536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63cdd2a7915df1147968c4f1835ec358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  timer: {fileID: 984143225146383542}
+  chipController: {fileID: 984143225146383537}
+  bettingPlaceLM:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &984143225146383537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb8cd2da8b28d046be0da131d771d97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chipSpawner: {fileID: 984143225146383538}
+  easeType: 10
+  uiHandler: {fileID: 0}
+  chipSecondLastSpot: {fileID: 0}
+  chipLastSpot: {fileID: 0}
+  leftParent: {fileID: 0}
+  rightParent: {fileID: 0}
+  middleParent: {fileID: 0}
+  chipMoveTime: 1
+  betManager: {fileID: 984143225146383541}
+  betSpots: {fileID: 11400000, guid: a65375107c54eb8409b458e8bcc829f3, type: 2}
+  test: {fileID: 0}
+  speed: 0.25
+  waitTime: 0.5
+--- !u!114 &984143225146383538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810baadc743c20c4f9a5932024ec9247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chips:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spawnPostions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  chipHolder: {fileID: 0}
+--- !u!114 &984143225146383542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c69381cfb12c994a86652f5badc1cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownTxt: {fileID: 0}
+  uiHandler: {fileID: 0}
+  is_a_FirstRound: 1
+--- !u!114 &984143225146383541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29403cf658cfbe4e88df4d81bece07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 984143225146383542}
+--- !u!114 &984143225146383531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6081f5882df8e648b06b4214994d23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 984143225146383542}
+  mainUnite: {fileID: 984143225146383539}
+  botsGameobject: {fileID: 0}
+  onlinePlayersData: {fileID: 0}
+--- !u!114 &984143225146383530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93008b0b60f8b8d439cfe972f4c674bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftRing: {fileID: 0}
+  middleRing: {fileID: 0}
+  rightRing: {fileID: 0}
+  dice:
+  - {fileID: 21300000, guid: 4b877fe7f1e08fd4ebcb250ce2087acd, type: 3}
+  - {fileID: 21300000, guid: 5022ca8e8f66b3944bd49a3876413820, type: 3}
+  - {fileID: 21300000, guid: a4d5b457d1735764ea3441de0212c8f7, type: 3}
+  - {fileID: 21300000, guid: 2006eb59ba857bc4faf9f33a60940358, type: 3}
+  - {fileID: 21300000, guid: 55b3e70d77a07d84d8f3f6700519d1d6, type: 3}
+  - {fileID: 21300000, guid: 2de4a0cae4880554e8c59c39f617a143, type: 3}
+  previousWins:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  leftDice: {fileID: 0}
+  rightDice: {fileID: 0}
+  timer: {fileID: 0}
+  onlinePlayerBets: {fileID: 0}
+  jarAnimation: {fileID: 0}
+--- !u!114 &984143225146383543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984143225146383539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06268f4768f419478d39bbcd8eda2ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
