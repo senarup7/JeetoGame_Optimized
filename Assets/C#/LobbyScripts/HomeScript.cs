@@ -21,7 +21,8 @@ public class HomeScript : MonoBehaviour
     AsyncOperation sevenupScene;
     public Image LobbyAnimpnel;
     public Sprite[] Lobbyframe;
-
+    [SerializeField]
+    Text LoadingWaitText;
     [SerializeField]
     List<Button> ButtonList = new List<Button>();
 
@@ -52,14 +53,15 @@ public class HomeScript : MonoBehaviour
         // a sceneBuildIndex of 1 as shown in Build Settings.
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene);
-
+        LoadingWaitText.gameObject.SetActive(true);
         // Wait until the asynchronous scene fully loads
         while (!asyncLoad.isDone)
         {
+            LoadingWaitText.text = "Loading...Please Wait";
             Debug.Log("Loading........");
             yield return null;
         }
-
+        LoadingWaitText.gameObject.SetActive(false);
     }
 
     public void ShowHomeUI()

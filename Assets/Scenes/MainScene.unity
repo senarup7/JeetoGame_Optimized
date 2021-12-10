@@ -8439,7 +8439,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Loading... Please Wait
+  m_Text: 
 --- !u!222 &361148896
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17485,6 +17485,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3e770c258d3803544a7fcc4ee5fec32c, type: 3}
   - {fileID: 21300000, guid: a8277aebf8c7f944fb628daeeda63509, type: 3}
   - {fileID: 21300000, guid: 62919197573334148be3a8bf500bed5f, type: 3}
+  LoadingWaitText: {fileID: 361148895}
   ButtonList:
   - {fileID: 1665074296}
   - {fileID: 222223289}
@@ -46627,7 +46628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1831866381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51900,7 +51901,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2050561393
 MonoBehaviour:
   m_ObjectHideFlags: 0
