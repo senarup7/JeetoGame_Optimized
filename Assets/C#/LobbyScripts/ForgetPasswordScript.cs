@@ -13,7 +13,9 @@ public class ForgetPasswordScript : MonoBehaviour
     public InputField Password;
     public InputField ReEnterPassword;
     public InputField OTP;
-    string ForgetPasswordURL = "http://3.109.48.186/Backend_code/rummy/WebServices/forgotPassword";
+    public Text Message;
+    string ForgetPasswordURL = "https://jeetogame.in/jeeto_game_new/WebServices/forgotPassword";
+   // string ForgetPasswordURL = "http://3.109.48.186/Backend_code/rummy/WebServices/forgotPassword";
     private void Awake()
     {
         Instance = this;
@@ -43,12 +45,24 @@ public class ForgetPasswordScript : MonoBehaviour
     }
     public void OkBtn()
     {
-        if (MobileNo.text != "" && OTP.text != "")
+        //  if (MobileNo.text != "" && OTP.text != "")
+        if (MobileNo.text != "" )
         {
             if (Password.text == ReEnterPassword.text)
             {
-                ForgetForm form = new ForgetForm(MobileNo.text, Password.text, OTP.text, "en");
+                ForgetForm form = new ForgetForm(MobileNo.text, Password.text, "en");
                 WebRequestHandler.instance.Post(ForgetPasswordURL, JsonUtility.ToJson(form), OnForgetPasswordRequestProcessed);
+            }
+            else
+            {
+                Message.text = "Password & Re-Enter Password Mismatched";
+            }
+        }
+        else
+        {
+            if (MobileNo.text.Length < 10)
+            {
+                Message.text = "Enter Valid Mobile No";
             }
         }
     }
@@ -56,7 +70,12 @@ public class ForgetPasswordScript : MonoBehaviour
     {
         LoginFormRoot responce = JsonUtility.FromJson<LoginFormRoot>(json);
         Debug.Log(responce.response.message);
+        Message.text = responce.response.message;
+        PlayerPrefs.SetString("MobileNum", MobileNo.text);
+        PlayerPrefs.SetString("password", Password.text);
+        PlayerPrefs.Save();
         AndroidToastMsg.ShowAndroidToastMessage(responce.response.message);
+
     }
 }
 [Serializable]
@@ -65,13 +84,13 @@ public class ForgetForm
     public string mobile_number;
     public string password;
     public string language;
-    public string otp;
+   // public string otp;
 
-    public ForgetForm(string mobile_number, string password, string otp, string language)
+    public ForgetForm(string mobile_number, string password, string language)
     {
         this.mobile_number = mobile_number;
         this.password = password;
         this.language = language;
-        this.otp = otp;
+      //  this.otp = otp;
     }
 }

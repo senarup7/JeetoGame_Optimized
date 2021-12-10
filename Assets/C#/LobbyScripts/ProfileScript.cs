@@ -23,9 +23,20 @@ public class ProfileScript : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+       
+    }
+
+    void InitUI()
+    {
+        PhoneTxt.text = "";
+        CapitalTxt.text = "";
+        NameTxt.text = "";
+        IDTxt.text = "";
     }
     public void ShowProfileUI()
     {
+        InitUI();
+
         PhoneTxt.text = UserDetail.MobileNo;
         CapitalTxt.text = UserDetail.Balance.ToString();
         NameTxt.text = UserDetail.Name;
@@ -114,6 +125,7 @@ public class ProfileScript : MonoBehaviour
         }
         else
         {
+
             AndroidToastMsg.ShowAndroidToastMessage(responceData.response.message);
         }
     }

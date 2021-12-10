@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "332156953242",
+    "project_id": "jeetogame-19ffd",
+    "storage_bucket": "jeetogame-19ffd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332156953242:android:f0ac7f622c1d99406db523",
+        "android_client_info": {
+          "package_name": "com.NMSGames.JeetoGame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332156953242-j8pjcnk46krhb256lparbd32m6q108h3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.NMSGames.JeetoGame",
+            "certificate_hash": "f6ec3c2dda5a35fa9e6ed4f0561efe5062a32980"
+          }
+        },
+        {
+          "client_id": "332156953242-nn3u8723lio3u0it95orpsnr5sic5gpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC38mXJ2aS6tMGVL5KjBXBs-XC6B0Jthfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332156953242-nn3u8723lio3u0it95orpsnr5sic5gpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

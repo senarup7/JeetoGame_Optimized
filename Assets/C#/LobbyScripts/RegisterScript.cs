@@ -103,6 +103,10 @@ public class RegisterScript : MonoBehaviour
             RegisterPanel.SetActive(false);
             ProfileScript.Instance.ShowProfileUI();
         }
+        else
+        {
+            ShowMessageText.text = responce.response.message;
+        }
     
     }
   /*  public void OTPVerifyBtn()

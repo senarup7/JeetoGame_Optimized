@@ -21,12 +21,17 @@ public class HomeScript : MonoBehaviour
     AsyncOperation sevenupScene;
     public Image LobbyAnimpnel;
     public Sprite[] Lobbyframe;
+
+    [SerializeField]
+    List<Button> ButtonList = new List<Button>();
+
     private void Awake()
     {
         Instance = this;
     }
     private void Start()
     {
+
         StartCoroutine(Loading());
     }
     IEnumerator Loading()
@@ -38,6 +43,25 @@ public class HomeScript : MonoBehaviour
         }
         StartCoroutine(Loading());
     }
+
+    IEnumerator LoadYourAsyncScene(string scene)
+    {
+        // The Application loads the Scene in the background as the current Scene runs.
+        // This is particularly good for creating loading screens.
+        // You could also load the Scene by using sceneBuildIndex. In this case Scene2 has
+        // a sceneBuildIndex of 1 as shown in Build Settings.
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene);
+
+        // Wait until the asynchronous scene fully loads
+        while (!asyncLoad.isDone)
+        {
+            Debug.Log("Loading........");
+            yield return null;
+        }
+
+    }
+
     public void ShowHomeUI()
     {
         //DragonScene = SceneManager.LoadSceneAsync("DragonScene");
@@ -49,7 +73,7 @@ public class HomeScript : MonoBehaviour
         NameTxt.text = UserDetail.Name;
         IDTxt.text = "id:" + UserDetail.ID;
         HomePanel.SetActive(true);
-
+        SetButton_Interactable(true);
         User user = new User() { 
         user_id = UserDetail.UserId, version_code = 1, language = "en" 
         };
@@ -66,27 +90,40 @@ public class HomeScript : MonoBehaviour
        
     }
 
+    void SetButton_Interactable(bool val)
+    {
+        for (int i=0; i < ButtonList.Count; i++)
+        {
+            ButtonList[i].interactable = val;
+        }
+    }
     
 
     public void DragonBtn()
     {
+        SetButton_Interactable(false);
         AndroidToastMsg.ShowAndroidToastMessage("Loading");
         //sevenupScene.allowSceneActivation = false;
         //DragonScene.allowSceneActivation = true;
         AndroidToastMsg.ShowAndroidToastMessage("Loading");
-        SceneManager.LoadScene("DragonScene");
+        //SceneManager.LoadScene("DragonScene");
+        StartCoroutine(LoadYourAsyncScene("DragonScene"));
     }
     public void SevenUpBtn()
     {
+        SetButton_Interactable(false);
         AndroidToastMsg.ShowAndroidToastMessage("Loading");
         //DragonScene.allowSceneActivation = false;
         //sevenupScene.allowSceneActivation = true;
-        SceneManager.LoadScene("7updown");
+        //SceneManager.LoadScene("7updown");
+        StartCoroutine(LoadYourAsyncScene("DragonScene"));
     }
     public void AndarBaharBtn()
     {
+        SetButton_Interactable(false);
         AndroidToastMsg.ShowAndroidToastMessage("Loading");
-        SceneManager.LoadScene("AndarBahar");
+       // SceneManager.LoadScene("AndarBahar");
+        StartCoroutine(LoadYourAsyncScene("DragonScene"));
     }
     public void ShopBtn()
     {
