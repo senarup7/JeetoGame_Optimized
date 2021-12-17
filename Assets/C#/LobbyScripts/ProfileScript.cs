@@ -19,11 +19,14 @@ public class ProfileScript : MonoBehaviour
     public Sprite[] ProfileSprite;
     public Image Profile;
     public InputField nameChange;
+
+    public Text MessageSuccessFull;
+
     string ProfileUrl = "https://jeetogame.in/jeeto_game/WebServices/updateProfile";
     private void Awake()
     {
         Instance = this;
-       
+        InitUI();
     }
 
     void InitUI()
@@ -32,26 +35,27 @@ public class ProfileScript : MonoBehaviour
         CapitalTxt.text = "";
         NameTxt.text = "";
         IDTxt.text = "";
+        MessageSuccessFull.text = "";
     }
     public void ShowProfileUI()
     {
-        InitUI();
+       // InitUI();
 
         PhoneTxt.text = UserDetail.MobileNo;
         CapitalTxt.text = UserDetail.Balance.ToString();
         NameTxt.text = UserDetail.Name;
         IDTxt.text = UserDetail.ID;
         Debug.Log("Mobile NUmber............ " + UserDetail.MobileNo);
-        if (UserDetail.MobileNo== null)
+        if (UserDetail.MobileNo== null || UserDetail.MobileNo == "")
         {
             Debug.Log("Mobile NUmber Not NULL");
 
-           BondObj.SetActive(false);
+           BondObj.SetActive(true);
         }
         else
         {
             Debug.Log("Mobile NUmber <<<<<<<<<NULL>>>>>>>>>>");
-            BondObj.SetActive(true);
+            BondObj.SetActive(false);
         }
         Profile.sprite = ProfileScript.Instance.ProfileSprite[UserDetail.ProfileId];
         ProfilePanel.SetActive(true);

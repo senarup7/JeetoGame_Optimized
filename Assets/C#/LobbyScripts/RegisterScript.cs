@@ -97,11 +97,18 @@ public class RegisterScript : MonoBehaviour
     private void OnRegisterRequestProcessed(string json, bool success)
     {
         RegisterFormRoot responce = JsonUtility.FromJson<RegisterFormRoot>(json);
-        Debug.Log("res : " + responce.response.data.id);
+        Debug.Log("res : " + responce.response.status);
+  
         if (responce.response.status)
         {
+ 
             RegisterPanel.SetActive(false);
+            
             ProfileScript.Instance.ShowProfileUI();
+            Debug.Log("ProfileScript.Instance.PhoneTxt.text " + ProfileScript.Instance.PhoneTxt.text);
+            ProfileScript.Instance.MessageSuccessFull.text = responce.response.message;
+            ProfileScript.Instance.PhoneTxt.text = responce.response.data.phone.ToString();
+            UserDetail.MobileNo= responce.response.data.phone.ToString();
         }
         else
         {

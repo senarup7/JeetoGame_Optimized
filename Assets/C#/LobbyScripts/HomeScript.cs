@@ -118,14 +118,14 @@ public class HomeScript : MonoBehaviour
         //DragonScene.allowSceneActivation = false;
         //sevenupScene.allowSceneActivation = true;
         //SceneManager.LoadScene("7updown");
-        StartCoroutine(LoadYourAsyncScene("DragonScene"));
+        StartCoroutine(LoadYourAsyncScene("7updown"));
     }
     public void AndarBaharBtn()
     {
         SetButton_Interactable(false);
         AndroidToastMsg.ShowAndroidToastMessage("Loading");
        // SceneManager.LoadScene("AndarBahar");
-        StartCoroutine(LoadYourAsyncScene("DragonScene"));
+        StartCoroutine(LoadYourAsyncScene("AndarBahar"));
     }
     public void ShopBtn()
     {

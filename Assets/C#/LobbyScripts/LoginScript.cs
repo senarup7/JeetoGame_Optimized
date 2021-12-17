@@ -12,17 +12,29 @@ public class LoginScript : MonoBehaviour
     public GameObject LoginPanel1;
     public InputField Password;
     public InputField Mobile;
+    [SerializeField]
+    Text ShowButtonText;
+    [SerializeField]
+    Text HideButtonText;
+    [SerializeField]
+    Text ErrorText;
     string LoginURL = "https://jeetogame.in/jeeto_game/WebServices/loginPassword";    
     string GuestURL = "https://jeetogame.in/jeeto_game/WebServices/Guestlogin";
 
     private void Awake()
     {
         Instance = this;
+        ShowButtonText.gameObject.SetActive(true);
+        HideButtonText.gameObject.SetActive(false);
+
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+
     }
     public void ShowLoginUI()
     {
         LoginPanel.SetActive(true);
         LoginPanel1.SetActive(false);
+        ErrorText.text = "";
     }
     public void LoginBtn()
     {
@@ -34,11 +46,17 @@ public class LoginScript : MonoBehaviour
     }
     private void OnLoginRequestProcessed(string json, bool success)
     {
+        ErrorText.text = "";
+
         LoginFormRoot responce = JsonUtility.FromJson<LoginFormRoot>(json);
         Debug.Log(json);
 
         if (responce.response.status)
         {
+            LoginPanel.SetActive(false);
+            LoginPanel1.SetActive(false);
+            HomeScript.Instance.ShowHomeUI();
+
             PlayerPrefs.SetString("MobileNum", Mobile.text);
             PlayerPrefs.SetString("password", Password.text);
             PlayerPrefs.Save();
@@ -50,19 +68,39 @@ public class LoginScript : MonoBehaviour
             UserDetail.MobileNo = responce.response.data.mobile_number;
             UserDetail.Balance = responce.response.data.chip_balance;
             UserDetail.refer_id = responce.response.data.refer_id;          
-            LoginPanel.SetActive(false);
-            LoginPanel1.SetActive(false);
-            HomeScript.Instance.ShowHomeUI();
+          
         }
         else
         {
-
+            ErrorText.text = responce.response.message;
         }
     }    
     public void ForgetPasswordBtn()
     {
         ForgetPasswordScript.Instance.ShowForgetPasswordUI();
     }   
+
+    public void ShowPasswordButton()
+    {
+        if (Password.contentType == InputField.ContentType.Password)
+        {
+            ShowButtonText.gameObject.SetActive(false);
+            HideButtonText.gameObject.SetActive(true);
+            SetPasswordContentType(Password, InputField.ContentType.Standard);
+        }
+        else
+        {
+            ShowButtonText.gameObject.SetActive(true);
+            HideButtonText.gameObject.SetActive(false);
+            SetPasswordContentType(Password, InputField.ContentType.Password);
+        }
+    }
+    private void SetPasswordContentType(InputField tmp_if, InputField.ContentType contetTypePass)
+    {
+        tmp_if.contentType = contetTypePass;
+        tmp_if.DeactivateInputField();
+        tmp_if.ActivateInputField();
+    }
     public void LoginScreenBtn()
     {
         LoginPanel.SetActive(false);
@@ -70,6 +108,7 @@ public class LoginScript : MonoBehaviour
     }
     public void PlayGuestBtn()
     {
+        
         string device_id = SystemInfo.deviceUniqueIdentifier;
         GuestForm form = new GuestForm(device_id, "en");
         WebRequestHandler.instance.Post(GuestURL, JsonUtility.ToJson(form), OnGuestRequestProcessed);       
@@ -85,6 +124,8 @@ public class LoginScript : MonoBehaviour
 
         if (responce.response.status)
         {
+            PlayerPrefs.DeleteAll();
+
             PlayerPrefs.SetString("GuestData", json);
             PlayerPrefs.Save();            
             UserDetail.UserId = responce.response.data.user_id;
